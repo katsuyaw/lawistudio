@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 
-const Awareness = () => {
+const awareness = () => {
   return (
     <>
       <Card
@@ -16,4 +16,4 @@ const Awareness = () => {
   );
 };
 
-export default Awareness;
+export default awareness;

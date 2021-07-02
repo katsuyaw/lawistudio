@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 
-const Wisdom = () => {
+const wisdom = () => {
   return (
     <>
       <Card
@@ -18,4 +18,4 @@ const Wisdom = () => {
   );
 };
 
-export default Wisdom;
+export default wisdom;
