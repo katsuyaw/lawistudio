@@ -2,7 +2,6 @@ import React from "react";
 import Background from "../bgb.jpg";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
-import Love from "./Love";
 
 const Home = () => {
   return (
