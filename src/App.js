@@ -1,7 +1,7 @@
 import "./App.css";
 import Background from "./bgb.jpg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from "./pages/index.js";
+import Home from "./pages/index";
 import Awareness from "./pages/Awareness";
 import Love from "./pages/Love";
 import Wisdom from "./pages/Wisdom";
