@@ -17,10 +17,17 @@ const Card = (props) => {
           <div className="flex justify-center font-title pt-5">
             {props.title}
           </div>
-          <div className="mx-4 pt-12 font-title">{props.body}</div>
+          <div className="mx-4 pt-12 font-body">{props.body}</div>
         </body>
       </div>
-      <div className="mt-32">
+      <div className="">
+        {/* <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <button className="bg-transparent hover:bg-gray-400 font-semibold hover:text-white py-2 px-4 border  hover:border-transparent rounded">
+            Join
+          </button>
+        </div> */}
+      </div>
+      <div className="absolute bottom-56 ">
         <Nav />
       </div>
     </div>

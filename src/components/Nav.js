@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="flex justify-evenly text-gray-600">
+    <div className="flex space-x-4 text-gray-600">
       <div>
         <NavLink to="/love" activeStyle={{ color: "white" }}>
           LOVE
