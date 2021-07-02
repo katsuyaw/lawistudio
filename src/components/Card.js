@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "../bgb.jpg";
+import Nav from "./Nav";
 
 const Card = (props) => {
   const menu = props.menu;
@@ -19,6 +19,9 @@ const Card = (props) => {
           </div>
           <div className="mx-4 pt-12 font-title">{props.body}</div>
         </body>
+      </div>
+      <div className="mt-32">
+        <Nav />
       </div>
     </div>
   );
