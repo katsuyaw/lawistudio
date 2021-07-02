@@ -3,7 +3,7 @@ import Background from "./bgb.jpg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./pages/index";
 import Awareness from "./pages/awareness";
-import Love from "./pages/love.js";
+import Love from "./pages/love";
 import Wisdom from "./pages/wisdom";
 import Intuition from "./pages/intuition";
 
