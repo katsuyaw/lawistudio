@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
+import { Link } from "react-router-dom";
 
 const Card = (props) => {
   const menu = props.menu;
@@ -10,7 +11,9 @@ const Card = (props) => {
     >
       <div className="grid">
         <header className="flex justify-center">
-          <p className="text-2xl font-lawi">LAWI</p>
+          <Link to="/" exact>
+            <p className="text-2xl font-lawi">LAWI</p>
+          </Link>
         </header>
         <body className="grid justify-center font-body">
           {menu && <div className="font-title pt-20">{props.menu}</div>}

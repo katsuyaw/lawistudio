@@ -2,10 +2,10 @@ import "./App.css";
 import Background from "./bgb.jpg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./pages/index";
-import Awareness from "./pages/Awareness";
-import Love from "./pages/Love";
-import Wisdom from "./pages/Wisdom";
-import Intuition from "./pages/Intuition";
+import Awareness from "./pages/awareness";
+import Love from "./pages/love.js";
+import Wisdom from "./pages/wisdom";
+import Intuition from "./pages/intuition";
 
 function App() {
   return (
