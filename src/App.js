@@ -1,6 +1,12 @@
 import "./App.css";
 import Background from "./bgb.jpg";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+} from "react-router-dom";
 import Home from "./pages/index";
 import Awareness from "./pages/awareness";
 import Love from "./pages/love";
@@ -22,7 +28,7 @@ function App() {
           <Route path="/awareness" component={Awareness} />
           <Route path="/wisdom" component={Wisdom} />
           <Route path="/intuition" component={Intuition} />
-          <Route component={Home} />
+          <Redirect to="/" />
         </Switch>
       </Router>
     </main>
