@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Card = (props) => {
   const menu = props.menu;
   const title = props.title;
+  const button = props.button;
   return (
     <div
       className="relative box-content h-80 w-80 mx-1 mt-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
@@ -17,13 +18,17 @@ const Card = (props) => {
           </p>
         </Link>
 
-        <body className="grid justify-center">
+        <body className="">
           {menu && (
-            <div className="mt-24 text-center font-menu">{props.menu}</div>
+            <div className="mt-14 sm:mt-16">
+              <div className="text-sm sm:text-base text-center font-menu">
+                {props.menu}
+              </div>
+            </div>
           )}
-          {/* {title && (
-            <div className="mt-6 text-center font-title">{props.title}</div>
-          )} */}
+          {title && (
+            <div className="mt-3 text-center font-title">{props.title}</div>
+          )}
           <div className="mt-6 font-body text-sm sm:text-lg sm:mt-10">
             {props.body}
           </div>
@@ -36,11 +41,13 @@ const Card = (props) => {
           </button>
         </div>
       </div> */}
-      <div className="absolute bottom-14 w-full flex justify-center">
-        <button className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-4 sm:py-2 sm:px-8 sm:text-sm border  hover:border-transparent rounded-sm text-xs">
-          {props.button}
-        </button>
-      </div>
+      {button && (
+        <div className="absolute bottom-14 w-full flex justify-center">
+          <button className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-4 sm:py-2 sm:px-8 sm:text-sm border  hover:border-transparent rounded-sm text-xs">
+            {props.button}
+          </button>
+        </div>
+      )}
 
       <div className="absolute bottom-3 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
         <Nav />

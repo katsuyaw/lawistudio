@@ -5,7 +5,7 @@ const awareness = () => {
   return (
     <>
       <Card
-        title="THE CAUSE"
+        title=""
         body={[
           <p>
             Liberating the potential of humanity, advocating for equal

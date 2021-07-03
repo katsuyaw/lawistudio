@@ -5,7 +5,7 @@ const Intuition = () => {
   return (
     <>
       <Card
-        title="THE BRAND
+        title="
 "
         body={[
           <p>

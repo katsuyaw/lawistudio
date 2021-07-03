@@ -5,7 +5,7 @@ const wisdom = () => {
   return (
     <>
       <Card
-        title="THE SURF CLUB"
+        title=""
         body={[
           <p>
             The power of self-discovery, peace of self-mastery, and grace of
