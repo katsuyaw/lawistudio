@@ -17,9 +17,9 @@ const Card = (props) => {
           </Link>
         </header>
         <body className="grid justify-center font-body">
-          {menu && <div className="font-title pt-14">{props.menu}</div>}
+          {menu && <div className="font-title mt-24">{props.menu}</div>}
           {title && (
-            <div className="flex justify-center font-title pt-5">
+            <div className="flex justify-center font-title mt-10">
               {props.title}
             </div>
           )}
@@ -34,7 +34,7 @@ const Card = (props) => {
         </div> */}
       </div>
 
-      <div className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4">
+      <div className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500">
         <Nav />
       </div>
     </div>
