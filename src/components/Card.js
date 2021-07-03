@@ -10,10 +10,10 @@ const Card = (props) => {
 
   return (
     <div
-      className="relative box-content h-80 w-80 mx-1 mt-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
+      className="relative box-content h-80 w-80 mx-1 my-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
       style={{ borderColor: "#2F2F2F" }}
     >
-      <div className="grid justify-center mx-12">
+      <div className="grid justify-center mx-10">
         <Link to="/" exact>
           <h1 className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
             LAWI
@@ -22,7 +22,7 @@ const Card = (props) => {
 
         <body className="">
           {menu && (
-            <div className="mt-14 sm:mt-20">
+            <div className="flex h-full mt-14 sm:mt-20">
               <div className="text-sm sm:text-base text-center font-menu ">
                 {props.menu}
               </div>
@@ -31,7 +31,7 @@ const Card = (props) => {
           {title && (
             <div className="mt-3 text-center font-title">{props.title}</div>
           )}
-          <div className="mt-6 font-body text-sm sm:text-lg sm:mt-10">
+          <div className="mt-6 font-body text-base sm:text-lg sm:mt-10">
             {props.body}
           </div>
         </body>

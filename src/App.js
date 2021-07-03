@@ -17,11 +17,12 @@ function App() {
     >
       <Router>
         <Switch>
-          <Route path="/" component={Home} exact />
+          <Route exact path="/" component={Home} />
           <Route path="/love" component={Love} />
           <Route path="/awareness" component={Awareness} />
           <Route path="/wisdom" component={Wisdom} />
           <Route path="/intuition" component={Intuition} />
+          <Route path="/*" component={Home} />
         </Switch>
       </Router>
     </main>
