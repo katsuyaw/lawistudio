@@ -12,8 +12,8 @@ const home = () => {
       <Card
         menu={[
           <Link to="/love">
-            <p>
-              L<span className="font-gray">OVE</span>
+            <p className="">
+              L<span className="font-gray hover:text-white">OVE</span>
             </p>
           </Link>,
           <Link to="/awareness">

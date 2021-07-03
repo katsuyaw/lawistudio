@@ -23,7 +23,7 @@ const Card = (props) => {
         <body className="">
           {menu && (
             <div className="mt-14 sm:mt-16">
-              <div className="text-sm sm:text-base text-center font-menu">
+              <div className="text-sm sm:text-base text-center font-menu hover:text-white">
                 {props.menu}
               </div>
             </div>

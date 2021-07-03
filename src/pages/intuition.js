@@ -5,8 +5,7 @@ const Intuition = () => {
   return (
     <>
       <Card
-        title="
-"
+        title=""
         body={[
           <p>
             Designed with love in Los Angeles and sustainably produced for
