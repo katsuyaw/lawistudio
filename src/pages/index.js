@@ -18,17 +18,17 @@ const home = () => {
           </Link>,
           <Link to="/awareness">
             <p>
-              A<span className="font-gray">WARENESS</span>
+              A<span className="font-gray hover:text-white">WARENESS</span>
             </p>
           </Link>,
           <Link to="/wisdom">
             <p>
-              W<span className="font-gray">ISDOM</span>
+              W<span className="font-gray hover:text-white">ISDOM</span>
             </p>
           </Link>,
           <Link to="/intuition">
             <p>
-              I<span className="font-gray">NTUITION</span>
+              I<span className="font-gray hover:text-white">NTUITION</span>
             </p>
           </Link>,
         ]}
