@@ -23,7 +23,7 @@ const Card = (props) => {
         <body className="">
           {menu && (
             <div className="flex h-full mt-14 sm:mt-20">
-              <div className="text-sm sm:text-base text-center font-menu ">
+              <div className="text-sm sm:text-base text-start font-menu ">
                 {props.menu}
               </div>
             </div>
@@ -31,7 +31,7 @@ const Card = (props) => {
           {title && (
             <div className="mt-3 text-center font-title">{props.title}</div>
           )}
-          <div className="mt-6 font-body text-base sm:text-lg sm:mt-10">
+          <div className="mt-6 font-body text-sm sm:text-base sm:mt-10">
             {props.body}
           </div>
         </body>
