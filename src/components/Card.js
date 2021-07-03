@@ -10,7 +10,7 @@ const Card = (props) => {
 
   return (
     <div
-      className="relative box-content h-80 w-80 mx-1 my-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
+      className="relative box-content h-80 w-80 mx-1 mt-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
       style={{ borderColor: "#2F2F2F" }}
     >
       <div className="grid justify-center mx-10">

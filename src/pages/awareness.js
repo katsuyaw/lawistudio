@@ -5,15 +5,12 @@ const awareness = () => {
   return (
     <>
       <Card
-        title=""
+        title="THE CAUSE"
         body={[
-          <p>
-            Liberating the potential of humanity, advocating for equal
-            opporuntity, and co-existing with mother nature.
-          </p>,
+          <p>Knowing the potential of humanity.</p>,
+          <p>Designing equal opporuntity.</p>,
+          <p>Co-existing with mother nature.</p>,
         ]}
-        button={<a href="https://instagram.com/lawistudios">Stand with us</a>}
-        bottomNav="true"
       />
     </>
   );
