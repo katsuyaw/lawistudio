@@ -13,7 +13,7 @@ const wisdom = () => {
             lessons, and this book is your surfboard.
           </p>,
         ]}
-        button="Surf with us"
+        button={<a href="https://instagram.com/lawistudios">Surf with us</a>}
         bottomNav="true"
       />
     </>

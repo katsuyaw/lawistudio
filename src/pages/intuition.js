@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
 
-const Intuition = () => {
+const intuition = () => {
   return (
     <>
       <Card
@@ -13,11 +13,11 @@ const Intuition = () => {
             dreams and protecting our ocean.
           </p>,
         ]}
-        button="Shop"
+        button={<a href="https://instagram.com/lawistudios">Shop</a>}
         bottomNav="true"
       />
     </>
   );
 };
 
-export default Intuition;
+export default intuition;
