@@ -44,14 +44,14 @@ const Card = (props) => {
         </div>
       </div> */}
       {button && (
-        <div className="absolute bottom-14 w-full flex justify-center">
+        <div className="absolute bottom-12 w-full flex justify-center">
           <button className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-4 sm:py-2 sm:px-8 sm:text-sm border  hover:border-transparent rounded-sm text-xs">
             {props.button}
           </button>
         </div>
       )}
       {bottomNav && (
-        <div className="absolute bottom-3 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
+        <div className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
           <Nav />
         </div>
       )}
