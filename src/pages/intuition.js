@@ -7,7 +7,13 @@ const Intuition = () => {
       <Card
         title="THE BRAND
 "
-        body={[<p>All Black.</p>, <p>All Green.</p>, <p>19. </p>]}
+        body={[
+          <p>
+            Designed with love in Los Angeles and sustainably produced for
+            Mother Earth. A portion of all proceeds goes towards inspiring hoop
+            dreams and protecting our ocean.
+          </p>,
+        ]}
       />
     </>
   );

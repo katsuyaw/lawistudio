@@ -7,23 +7,26 @@ const Card = (props) => {
   const title = props.title;
   return (
     <div
-      className="relative box-content h-80 w-80 m-1 mt-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
+      className="relative box-content h-80 w-80 mx-1 mt-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
       style={{ borderColor: "#2F2F2F" }}
     >
-      <div className="grid">
-        <header className="flex justify-center">
-          <Link to="/" exact>
-            <p className="text-2xl font-lawi pt-4">LAWI</p>
-          </Link>
-        </header>
-        <body className="grid justify-center font-body">
-          {menu && <div className="font-title mt-24">{props.menu}</div>}
-          {title && (
-            <div className="flex justify-center font-title mt-10">
-              {props.title}
-            </div>
+      <div className="grid justify-center mx-12">
+        <Link to="/" exact>
+          <p className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
+            LAWI
+          </p>
+        </Link>
+
+        <body className="grid justify-center">
+          {menu && (
+            <div className="mt-24 text-center font-menu">{props.menu}</div>
           )}
-          <div className="mx-8 pt-4 font-body text-sm">{props.body}</div>
+          {/* {title && (
+            <div className="mt-6 text-center font-title">{props.title}</div>
+          )} */}
+          <div className="mt-6 font-body text-sm sm:text-lg sm:mt-10">
+            {props.body}
+          </div>
         </body>
       </div>
       <div className="">
@@ -34,7 +37,7 @@ const Card = (props) => {
         </div> */}
       </div>
 
-      <div className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500">
+      <div className="absolute bottom-3 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
         <Nav />
       </div>
     </div>

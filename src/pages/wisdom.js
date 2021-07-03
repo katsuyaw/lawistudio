@@ -8,9 +8,9 @@ const wisdom = () => {
         title="THE SURF CLUB"
         body={[
           <p>
-            The ocean is the greatest teacher and surfing is the ultimate
-            analogy for living a life intuitively despite the ebb and flow of
-            constantly changing conditions, both internally and externally.
+            The power of self-discovery, peace of self-mastery, and grace of
+            self-expression. The ocean is your teacher, her waves are the
+            lessons, and this book is your surfboard.
           </p>,
         ]}
       />

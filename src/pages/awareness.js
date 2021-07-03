@@ -7,9 +7,10 @@ const awareness = () => {
       <Card
         title="THE CAUSE"
         body={[
-          <p>Knowing the potential of humanity.</p>,
-          <p>Designing equal opporuntity.</p>,
-          <p>Co-existing with mother nature.</p>,
+          <p>
+            Liberating the potential of humanity, advocating for equal
+            opporuntity, and co-existing with mother nature.
+          </p>,
         ]}
       />
     </>
