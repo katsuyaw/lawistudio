@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../components/Card";
 import lawiDot from "../lawiDot.png";
 
-const Love = () => {
+const love = () => {
   return (
     <>
       <Card
@@ -19,4 +19,4 @@ const Love = () => {
   );
 };
 
-export default Love;
+export default love;

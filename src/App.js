@@ -23,7 +23,7 @@ function App() {
     >
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route path="/" component={Home} />
           <Route path="/love" component={Love} />
           <Route path="/awareness" component={Awareness} />
           <Route path="/wisdom" component={Wisdom} />
