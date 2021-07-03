@@ -12,6 +12,7 @@ const awareness = () => {
             opporuntity, and co-existing with mother nature.
           </p>,
         ]}
+        button="Stand with us"
       />
     </>
   );

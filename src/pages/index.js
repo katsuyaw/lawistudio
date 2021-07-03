@@ -32,6 +32,7 @@ const home = () => {
             </p>
           </Link>,
         ]}
+        button="Explore"
       />
       {/* <Card body={[<img src={Lawi2} />]} /> */}
     </>

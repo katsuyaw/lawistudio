@@ -11,6 +11,7 @@ const Love = () => {
           <p>The peace of self-mastery.</p>,
           <p>The grace of self-expression. </p>,
         ]}
+        button="Explore"
       />
     </>
   );

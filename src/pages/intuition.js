@@ -14,6 +14,7 @@ const Intuition = () => {
             dreams and protecting our ocean.
           </p>,
         ]}
+        button="Shop"
       />
     </>
   );

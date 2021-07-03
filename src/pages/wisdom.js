@@ -13,6 +13,7 @@ const wisdom = () => {
             lessons, and this book is your surfboard.
           </p>,
         ]}
+        button="Surf with us"
       />
     </>
   );
