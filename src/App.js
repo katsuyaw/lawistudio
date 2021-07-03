@@ -22,7 +22,7 @@ function App() {
           <Route path="/awareness" component={Awareness} />
           <Route path="/wisdom" component={Wisdom} />
           <Route path="/intuition" component={Intuition} />
-          <Route path="/*" component={Home} />
+          <Route component={Home} />
         </Switch>
       </Router>
     </main>
