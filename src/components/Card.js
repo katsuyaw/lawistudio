@@ -6,6 +6,8 @@ const Card = (props) => {
   const menu = props.menu;
   const title = props.title;
   const button = props.button;
+  const bottomNav = props.bottomNav;
+
   return (
     <div
       className="relative box-content h-80 w-80 mx-1 mt-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
@@ -13,9 +15,9 @@ const Card = (props) => {
     >
       <div className="grid justify-center mx-12">
         <Link to="/" exact>
-          <p className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
+          <h1 className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
             LAWI
-          </p>
+          </h1>
         </Link>
 
         <body className="">
@@ -48,10 +50,11 @@ const Card = (props) => {
           </button>
         </div>
       )}
-
-      <div className="absolute bottom-3 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
-        <Nav />
-      </div>
+      {bottomNav && (
+        <div className="absolute bottom-3 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
+          <Nav />
+        </div>
+      )}
     </div>
   );
 };

@@ -13,6 +13,7 @@ const Love = () => {
           </div>,
         ]}
         button="Explore"
+        bottomNav="true"
       />
     </>
   );

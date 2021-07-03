@@ -13,6 +13,7 @@ const awareness = () => {
           </p>,
         ]}
         button="Stand with us"
+        bottomNav="true"
       />
     </>
   );

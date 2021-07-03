@@ -33,7 +33,6 @@ const home = () => {
           </Link>,
         ]}
       />
-      {/* <Card body={[<img src={Lawi2} />]} /> */}
     </>
   );
 };

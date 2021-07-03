@@ -15,6 +15,7 @@ const Intuition = () => {
           </p>,
         ]}
         button="Shop"
+        bottomNav="true"
       />
     </>
   );

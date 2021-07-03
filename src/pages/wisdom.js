@@ -14,6 +14,7 @@ const wisdom = () => {
           </p>,
         ]}
         button="Surf with us"
+        bottomNav="true"
       />
     </>
   );
