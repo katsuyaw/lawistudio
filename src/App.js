@@ -28,6 +28,14 @@ function App() {
           <Route path="/awareness" component={Awareness} />
           <Route path="/wisdom" component={Wisdom} />
           <Route path="/intuition" component={Intuition} />
+          <Route
+            path="/blog"
+            component={() => {
+              window.location.href =
+                "http://box5116.temp.domains/~lawistud/lawistudios-com/blog";
+              return null;
+            }}
+          />
           <Redirect to="/" />
         </Switch>
       </Router>
