@@ -18,7 +18,7 @@ const ProductDisplay = () => (
     <div
       // action="/create-checkout-session"
       // method="POST"
-      className="mt-7 grid justify-center"
+      className="mt-3 grid justify-center sm:mt-7"
     >
       <div
         // type="submit"
