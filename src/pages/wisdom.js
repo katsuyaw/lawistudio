@@ -17,7 +17,6 @@ const wisdom = () => {
         // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
         button={<Link to="/shop">Surf with us</Link>}
         nav="true"
-        moreNav="true"
       />
     </>
   );
