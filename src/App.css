@@ -55,3 +55,19 @@
 .font-gray {
   color: #7b7b7b;
 }
+
+.team-position {
+  @apply flex-none w-20 text-left text-gray-200;
+}
+
+.team-name {
+  @apply flex-auto w-20 text-center;
+}
+
+.team-contact {
+  @apply text-gray-500 hover:text-white text-right w-24 flex-none;
+}
+
+.team-holder {
+  @apply flex;
+}
