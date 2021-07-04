@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../components/Card";
-import { Link } from "react-router-dom";
 
 const privacy = () => {
   return (
@@ -8,7 +7,7 @@ const privacy = () => {
       <Card
         title=""
         body={[
-          <div className="overflow-auto h-52 w-64">
+          <div className="overflow-auto h-52 w-20">
             Privacy Policy
             <p>Last updated: July 04, 2021</p>
             <p>
@@ -191,13 +190,6 @@ const privacy = () => {
                 on how You can delete Flash Cookies, please read &quot;Where can
                 I change the settings for disabling, or deleting local shared
                 objects?&quot; available at{" "}
-                <a
-                  href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_"
-                  rel="external nofollow noopener"
-                  target="_blank"
-                >
-                  https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_
-                </a>
               </li>
               <li>
                 <strong>Web Beacons.</strong> Certain sections of our Service
