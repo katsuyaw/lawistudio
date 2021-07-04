@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const privacy = () => {
   return (
     <>
-      <Card title="" body={[<p>Coming soon</p>]} nav="" moreNav="true" />
+      <Card title="" body={[<p>Now writing...</p>]} nav="" />
     </>
   );
 };
