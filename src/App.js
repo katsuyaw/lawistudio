@@ -12,6 +12,7 @@ import Awareness from "./pages/awareness";
 import Love from "./pages/love";
 import Wisdom from "./pages/wisdom";
 import Intuition from "./pages/intuition";
+import Shop from "./pages/shop";
 
 function App() {
   return (
@@ -28,14 +29,15 @@ function App() {
           <Route path="/awareness" component={Awareness} />
           <Route path="/wisdom" component={Wisdom} />
           <Route path="/intuition" component={Intuition} />
-          <Route
+          <Route path="/shop" component={Shop} />
+          {/* <Route
             path="/blog"
             component={() => {
               window.location.href =
                 "http://box5116.temp.domains/~lawistud/lawistudios-com/blog";
               return null;
             }}
-          />
+          /> */}
           <Redirect to="/" />
         </Switch>
       </Router>

@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
+import { Link } from "react-router-dom";
 
 const intuition = () => {
   return (
@@ -13,15 +14,7 @@ const intuition = () => {
             dreams and protecting our ocean.
           </p>,
         ]}
-        button={
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://instagram.com/lawistudios"
-          >
-            Shop
-          </a>
-        }
+        button="Coming Soon"
         bottomNav="true"
       />
     </>

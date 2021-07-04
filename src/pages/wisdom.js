@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
+import { Link } from "react-router-dom";
 
 const wisdom = () => {
   return (
@@ -13,7 +14,8 @@ const wisdom = () => {
             lessons, and this book is your surfboard.
           </p>,
         ]}
-        button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
+        // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
+        button={<Link to="/shop">Surf with us</Link>}
         bottomNav="true"
       />
     </>
