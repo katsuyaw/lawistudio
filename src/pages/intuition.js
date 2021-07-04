@@ -13,7 +13,15 @@ const intuition = () => {
             dreams and protecting our ocean.
           </p>,
         ]}
-        button={<a href="https://instagram.com/lawistudios">Shop</a>}
+        button={
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://instagram.com/lawistudios"
+          >
+            Shop
+          </a>
+        }
         bottomNav="true"
       />
     </>

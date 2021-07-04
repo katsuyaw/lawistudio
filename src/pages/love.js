@@ -12,7 +12,15 @@ const love = () => {
             <img className="pt-0 h-20 w-20 sm:h-28 sm:w-28" src={lawiDot} />
           </div>,
         ]}
-        button={<a href="https://instagram.com/lawistudios">Explore</a>}
+        button={
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://instagram.com/lawistudios"
+          >
+            Explore
+          </a>
+        }
         bottomNav="true"
       />
     </>

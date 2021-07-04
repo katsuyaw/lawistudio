@@ -13,7 +13,13 @@ const awareness = () => {
           </p>,
         ]}
         button={
-          <a href="https://www.gofundme.com/f/liberiasurfclub">Stand with us</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.gofundme.com/f/liberiasurfclub"
+          >
+            Stand with us
+          </a>
         }
         bottomNav="true"
       />
