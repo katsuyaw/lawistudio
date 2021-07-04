@@ -12,7 +12,9 @@ const awareness = () => {
             opporuntity, and co-existing with mother nature.
           </p>,
         ]}
-        button={<a href="https://instagram.com/lawistudios">Stand with us</a>}
+        button={
+          <a href="https://www.gofundme.com/f/liberiasurfclub">Stand with us</a>
+        }
         bottomNav="true"
       />
     </>

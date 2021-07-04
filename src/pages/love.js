@@ -6,7 +6,7 @@ const love = () => {
   return (
     <>
       <Card
-        title="YOU"
+        title=""
         body={[
           <div className="grid justify-center">
             <img className="pt-0 h-20 w-20 sm:h-28 sm:w-28" src={lawiDot} />
