@@ -14,7 +14,7 @@ import Wisdom from "./pages/wisdom";
 import Intuition from "./pages/intuition";
 import Shop from "./pages/shop";
 import More from "./pages/more";
-import Studios from "./pages/studios";
+import Studio from "./pages/studio";
 import Team from "./pages/team";
 import Support from "./pages/support";
 import Contact from "./pages/contact";
@@ -39,7 +39,7 @@ function App() {
           <Route path="/intuition" component={Intuition} />
           <Route path="/shop" component={Shop} />
           <Route path="/more" component={More} />
-          <Route path="/studios" component={Studios} />
+          <Route path="/studio" component={Studio} />
           <Route path="/team" component={Team} />
           <Route path="/support" component={Support} />
           <Route path="/contact" component={Contact} />
