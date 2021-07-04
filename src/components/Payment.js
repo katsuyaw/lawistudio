@@ -22,6 +22,7 @@ const ProductDisplay = () => (
     >
       <button
         // type="submit"
+        disabled
         className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-4 sm:py-2 sm:px-8 sm:text-sm border  hover:border-transparent rounded-sm text-xs"
       >
         Coming Soon
