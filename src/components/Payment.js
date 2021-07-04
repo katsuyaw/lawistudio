@@ -15,19 +15,19 @@ const ProductDisplay = () => (
         <h5 className="mt-2 text-center text-xs"></h5>
       </div>
     </div>
-    <form
+    <div
       // action="/create-checkout-session"
       // method="POST"
       className="mt-7 grid justify-center"
     >
-      <button
+      <div
         // type="submit"
         disabled
         className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-4 sm:py-2 sm:px-8 sm:text-sm border  hover:border-transparent rounded-sm text-xs"
       >
         Coming Soon
-      </button>
-    </form>
+      </div>
+    </div>
   </section>
 );
 
