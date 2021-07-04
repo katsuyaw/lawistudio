@@ -8,7 +8,11 @@ const Nav = (props) => {
       <NavLink to="/love" activeStyle={{ color: "white" }}>
         LOVE
       </NavLink>
-      <NavLink to="/awareness" activeStyle={{ color: "white" }}>
+      <NavLink
+        to="/awareness"
+        activeStyle={{ color: "white" }}
+        className="animate-pulse"
+      >
         AWARENESS
       </NavLink>
       <NavLink to="/wisdom" activeStyle={{ color: "white" }}>
