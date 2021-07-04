@@ -6,9 +6,8 @@ const ProductDisplay = () => (
     <div>
       <img
         className="mt-3 h-32 w-32 sm:h-36 sm:w-36 sm:mt-0"
-        // src="https://i.imgur.com/EHyR2nP.png"
         src={Book}
-        alt="The cover of Stubborn Attachments"
+        alt="THE LAW OF INTUITION"
       />
       <div>
         <h3 className="mt-3 text-center">THE LAW OF INTUITION</h3>

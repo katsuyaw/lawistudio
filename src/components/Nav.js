@@ -16,6 +16,13 @@ const Nav = () => {
       <NavLink to="/intuition" activeStyle={{ color: "white" }}>
         INTUITION
       </NavLink>
+      <NavLink
+        to="/more"
+        activeStyle={{ color: "white" }}
+        className="w-2 h-auto"
+      >
+        <p className="text-base leading-5">+</p>
+      </NavLink>
     </>
   );
 };
