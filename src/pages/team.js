@@ -39,7 +39,7 @@ const team = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://instagram.com/logancaytonm"
+                href="https://instagram.com/logancayton"
                 className="team-contact"
               >
                 @logancayton
