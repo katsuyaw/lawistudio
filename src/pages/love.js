@@ -6,10 +6,10 @@ const love = () => {
   return (
     <>
       <Card
-        title=""
+        title=" "
         body={[
           <div className="grid justify-center">
-            <img className="pt-0 h-20 w-20 sm:h-28 sm:w-28" src={lawiDot} />
+            <img className="mt-5 h-20 w-20 sm:h-28 sm:w-28" src={lawiDot} />
           </div>,
         ]}
         button={
