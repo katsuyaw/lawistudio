@@ -17,6 +17,12 @@ const moreNav = () => {
       <NavLink to="/team" activeStyle={{ color: "white" }}>
         TEAM
       </NavLink>
+      <NavLink to="/support" activeStyle={{ color: "white" }}>
+        SUPPORT
+      </NavLink>
+      <NavLink to="/contact" activeStyle={{ color: "white" }}>
+        CONTACT
+      </NavLink>
     </>
   );
 };

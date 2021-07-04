@@ -16,6 +16,8 @@ import Shop from "./pages/shop";
 import More from "./pages/more";
 import Studios from "./pages/studios";
 import Team from "./pages/team";
+import Support from "./pages/support";
+import Contact from "./pages/contact";
 import Terms from "./pages/terms";
 import Privacy from "./pages/privacy";
 import Footer from "./components/Footer";
@@ -39,6 +41,8 @@ function App() {
           <Route path="/more" component={More} />
           <Route path="/studios" component={Studios} />
           <Route path="/team" component={Team} />
+          <Route path="/support" component={Support} />
+          <Route path="/contact" component={Contact} />
           <Route path="/terms" component={Terms} />
           <Route path="/privacy" component={Privacy} />
           <Redirect to="/" />
