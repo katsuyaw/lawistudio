@@ -50,8 +50,8 @@ const privacy = () => {
                 <p>
                   <strong>Company</strong> (referred to as either &quot;the
                   Company&quot;, &quot;We&quot;, &quot;Us&quot; or
-                  &quot;Our&quot; in this Agreement) refers to LAWI Studios LLC,
-                  11209 Richland Ave.
+                  &quot;Our&quot; in this Agreement) refers to LAWI STUDIOS LLC,
+                  1968 SOUTH COAST HIGHWAY #3694, LAGUNA BEACH, CA, 92651
                 </p>
               </li>
               <li>
@@ -509,7 +509,7 @@ const privacy = () => {
               contact us:
             </p>
             <ul>
-              <li>By email: privacy@lawistudios.com</li>
+              <li>By email: info@lawistudios.com</li>
             </ul>
           </div>,
         ]}
