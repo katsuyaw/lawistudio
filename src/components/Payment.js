@@ -2,13 +2,16 @@ import React, { useState, useEffect } from "react";
 import Book from "../img/book.jpg";
 
 const ProductDisplay = () => (
-  <section className="grid text-xs">
-    <div>
-      <img
-        className="mt-3 h-32 w-32 sm:h-36 sm:w-36 sm:mt-0"
-        src={Book}
-        alt="THE LAW OF INTUITION"
-      />
+  <section className="grid text-xs ">
+    <div className="">
+      <div className="flex justify-center">
+        <img
+          className="mt-3 h-32 w-32 sm:h-36 sm:w-36 sm:mt-0 flex"
+          src={Book}
+          alt="THE LAW OF INTUITION"
+        />
+      </div>
+
       <div>
         <h3 className="mt-3 text-center">THE LAW OF INTUITION</h3>
         <h5 className="mt-2 text-center text-xs"></h5>
