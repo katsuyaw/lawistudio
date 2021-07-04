@@ -21,7 +21,7 @@ const awareness = () => {
             Stand with us
           </a>
         }
-        bottomNav="true"
+        nav="true"
       />
     </>
   );

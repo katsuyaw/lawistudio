@@ -1,12 +1,15 @@
 import React from "react";
 import Nav from "./Nav";
+import MoreNav from "./MoreNav";
 import { Link } from "react-router-dom";
 
 const Card = (props) => {
   const menu = props.menu;
   const title = props.title;
   const button = props.button;
-  const bottomNav = props.bottomNav;
+  const nav = props.nav;
+  const moreNav = props.moreNav;
+  const more = props.more;
 
   return (
     <div
@@ -50,9 +53,14 @@ const Card = (props) => {
           </button>
         </div>
       )}
-      {bottomNav && (
+      {nav && (
         <div className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
-          <Nav />
+          <Nav more={more} />
+        </div>
+      )}
+      {moreNav && (
+        <div className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
+          <MoreNav />
         </div>
       )}
     </div>

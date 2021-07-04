@@ -21,7 +21,7 @@ const love = () => {
             Explore
           </a>
         }
-        bottomNav="true"
+        nav="true"
       />
     </>
   );

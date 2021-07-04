@@ -6,18 +6,11 @@ const more = () => {
   return (
     <>
       <Card
-        menu={[
-          <Link to="/studios">
-            <p className="">
-              <span className="font-gray hover:text-white">STUDIOS</span>
-            </p>
-          </Link>,
-          <Link to="/team">
-            <p className="">
-              <span className="font-gray hover:text-white">TEAM</span>
-            </p>
-          </Link>,
-        ]}
+        body="Designed with love in Los Angeles and sustainably produced for
+            Mother Earth. A portion of all proceeds goes towards inspiring hoop
+            dreams and protecting our ocean."
+        button="Coming Soon"
+        moreNav="true"
       />
     </>
   );

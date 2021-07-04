@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Nav = () => {
+const Nav = (props) => {
+  const more = props.more;
   return (
     <>
       <NavLink to="/love" activeStyle={{ color: "white" }}>
@@ -16,13 +17,15 @@ const Nav = () => {
       <NavLink to="/intuition" activeStyle={{ color: "white" }}>
         INTUITION
       </NavLink>
-      <NavLink
-        to="/more"
-        activeStyle={{ color: "white" }}
-        className="w-2 h-auto"
-      >
-        <p className="text-base leading-5">+</p>
-      </NavLink>
+      {more && (
+        <NavLink
+          to="/more"
+          activeStyle={{ color: "white" }}
+          className="w-2 h-auto"
+        >
+          <p className="text-base leading-5">+</p>
+        </NavLink>
+      )}
     </>
   );
 };

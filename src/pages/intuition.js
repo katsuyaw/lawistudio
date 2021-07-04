@@ -15,7 +15,8 @@ const intuition = () => {
           </p>,
         ]}
         button="Coming Soon"
-        bottomNav="true"
+        nav="true"
+        more="true"
       />
     </>
   );

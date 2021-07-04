@@ -14,6 +14,11 @@ import Wisdom from "./pages/wisdom";
 import Intuition from "./pages/intuition";
 import Shop from "./pages/shop";
 import More from "./pages/more";
+import Studios from "./pages/studios";
+import Team from "./pages/team";
+import Terms from "./pages/terms";
+import Privacy from "./pages/privacy";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -32,8 +37,13 @@ function App() {
           <Route path="/intuition" component={Intuition} />
           <Route path="/shop" component={Shop} />
           <Route path="/more" component={More} />
+          <Route path="/studios" component={Studios} />
+          <Route path="/team" component={Team} />
+          <Route path="/terms" component={Terms} />
+          <Route path="/privacy" component={Privacy} />
           <Redirect to="/" />
         </Switch>
+        <Footer />
       </Router>
     </main>
   );
