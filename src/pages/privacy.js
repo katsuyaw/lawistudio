@@ -7,7 +7,7 @@ const privacy = () => {
       <Card
         title=""
         body={[
-          <div className="overflow-auto h-52 w-20">
+          <div className="overflow-auto h-52 w-34">
             Privacy Policy
             <p>Last updated: July 04, 2021</p>
             <p>
