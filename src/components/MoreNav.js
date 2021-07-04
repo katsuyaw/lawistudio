@@ -9,7 +9,7 @@ const moreNav = () => {
         activeStyle={{ color: "gray" }}
         className="w-2 h-auto"
       >
-        <p className="text-base leading-5">-</p>
+        <p className="text-base leading-3 sm:leading-5">-</p>
       </NavLink>
       <NavLink to="/studios" activeStyle={{ color: "white" }}>
         STUDIOS

@@ -8,7 +8,7 @@ const team = () => {
       <Card
         title=""
         body={
-          <div className="flex flex-col text-xs gap-4">
+          <div className="flex flex-col text-xs gap-4 sm:gap-6">
             <div className="team-holder">
               <p className="team-position">Don</p>
               <p className="team-name">GABE</p>
