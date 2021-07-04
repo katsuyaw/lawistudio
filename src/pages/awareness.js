@@ -16,7 +16,7 @@ const awareness = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.gofundme.com/f/liberiasurfclub"
+            href="https://lawistudios.org/"
           >
             Stand with us
           </a>
