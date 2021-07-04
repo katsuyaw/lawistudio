@@ -1,5 +1,5 @@
 import "./App.css";
-import Background from "./bgb.jpg";
+import Background from "./img/bgb.jpg";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,6 +13,7 @@ import Love from "./pages/love";
 import Wisdom from "./pages/wisdom";
 import Intuition from "./pages/intuition";
 import Shop from "./pages/shop";
+import More from "./pages/more";
 
 function App() {
   return (
@@ -30,14 +31,7 @@ function App() {
           <Route path="/wisdom" component={Wisdom} />
           <Route path="/intuition" component={Intuition} />
           <Route path="/shop" component={Shop} />
-          {/* <Route
-            path="/blog"
-            component={() => {
-              window.location.href =
-                "http://box5116.temp.domains/~lawistud/lawistudios-com/blog";
-              return null;
-            }}
-          /> */}
+          <Route path="/more" component={More} />
           <Redirect to="/" />
         </Switch>
       </Router>

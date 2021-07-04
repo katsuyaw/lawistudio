@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Book from "../book.jpg";
+import Book from "../img/book.jpg";
 
 const ProductDisplay = () => (
   <section className="grid text-xs">

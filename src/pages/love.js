@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
-import lawiDot from "../lawiDot.png";
+import lawiDot from "../img/lawiDot.png";
 
 const love = () => {
   return (

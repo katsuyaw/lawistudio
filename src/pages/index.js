@@ -1,7 +1,5 @@
 import React from "react";
-import Background from "../bgb.jpg";
-import Lawi from "../lawi.png";
-import Lawi2 from "../lawi.jpg";
+import Background from "../img/bgb.jpg";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 import { cacheNames } from "workbox-core/_private";
