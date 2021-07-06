@@ -10,7 +10,7 @@ const works = (props) => {
         title=""
         body="Behind the scene"
         moreNav="true"
-        button={<Link to="/">Take a look</Link>}
+        button={<Link to="/comingsoon">Take a look</Link>}
       />
     </>
   );

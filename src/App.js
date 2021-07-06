@@ -24,6 +24,7 @@ import Privacy from "./pages/privacy";
 import Footer from "./components/Footer";
 import Works from "./pages/works";
 import Gallery from "./pages/gallery";
+import ComingSoon from "./pages/comingsoon";
 
 function App() {
   const [bgi, setBgi] = useState(BackgroundBlack);
@@ -55,6 +56,7 @@ function App() {
           <Route path="/team" component={Team} />
           <Route path="/support" component={Support} />
           <Route path="/contact" component={Contact} />
+          <Route path="/comingsoon" component={ComingSoon} />
           <Route path="/terms" component={Terms} />
           <Route path="/privacy" component={Privacy} />
           <Redirect to="/" />
