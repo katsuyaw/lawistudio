@@ -34,7 +34,7 @@ const Card = (props) => {
           {title && (
             <div className="mt-3 text-center font-title">{props.title}</div>
           )}
-          <div className="mt-6 font-body text-sm sm:text-base sm:mt-10">
+          <div className="mt-6 font-body text-center text-sm sm:text-base sm:mt-10">
             {props.body}
           </div>
         </body>

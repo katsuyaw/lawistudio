@@ -9,9 +9,14 @@ const wisdom = () => {
         title=""
         body={[
           <p>
-            The power of self-discovery, peace of self-mastery, and grace of
-            self-expression. The ocean is your teacher, her waves are the
-            lessons, and this book is your surfboard.
+            Here is our street recipe for self-discovery, self-mastery, and
+            self-expression: The Law of Intuition.
+          </p>,
+          <br />,
+          <p>
+            {" "}
+            Ingredients include scientific fact, universal truths, you, and the
+            ocean.
           </p>,
         ]}
         // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}

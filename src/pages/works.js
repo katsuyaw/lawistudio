@@ -8,9 +8,9 @@ const works = (props) => {
     <>
       <Card
         title=""
-        body="Behind the scene"
+        body="Behind the scenes"
         moreNav="true"
-        button={<Link to="/comingsoon">Take a look</Link>}
+        button={<Link to="/comingsoon">Peep</Link>}
       />
     </>
   );

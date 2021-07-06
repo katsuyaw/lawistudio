@@ -8,10 +8,16 @@ const intuition = () => {
       <Card
         title=""
         body={[
+          <p>Welcome to our studio.</p>,
+          <br />,
           <p>
-            Designed with love in Los Angeles and sustainably produced for
-            Mother Earth. A portion of all proceeds goes towards inspiring hoop
-            dreams and protecting our ocean.
+            Designed with TLC in Los Angeles and sustainably produced for Mother
+            Earth.
+          </p>,
+
+          <p>
+            A portion of all proceeds goes towards inspiring hoop dreams and
+            protecting our ocean.
           </p>,
         ]}
         button="Coming Soon"
