@@ -6,9 +6,19 @@ const more = () => {
   return (
     <>
       <Card
-        body="Designed with love in Los Angeles and sustainably produced for
-            Mother Earth. A portion of all proceeds goes towards inspiring hoop
-            dreams and protecting our ocean."
+        body={[
+          <p>Welcome to our studio.</p>,
+          <br />,
+          <p>
+            Designed with TLC in Los Angeles and sustainably produced for Mother
+            Earth.
+          </p>,
+
+          <p>
+            A portion of all proceeds goes towards inspiring hoop dreams and
+            protecting our ocean.
+          </p>,
+        ]}
         button="Coming Soon"
         moreNav="true"
       />
