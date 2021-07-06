@@ -6,7 +6,7 @@ const support = () => {
     <>
       <Card
         title=""
-        body="A SURF CLUB IN LIBERIA"
+        body="A Surf Club In Liberia"
         button="Coming Soon"
         moreNav="true"
         button={

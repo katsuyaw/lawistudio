@@ -8,8 +8,9 @@ const awareness = () => {
         title=""
         body={[
           <p>
-            Liberating the potential of humanity, advocating for equal
-            opporuntity, and co-existing with mother nature.
+            Here is our message of peace. This is where we defy social norms and
+            advocate for environmental justice and social equality. We use our
+            voice to raise awareness and amplify change.
           </p>,
         ]}
         button={

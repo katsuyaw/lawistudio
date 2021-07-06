@@ -58,7 +58,19 @@ const team = () => {
               </a>
             </div>
             <div className="team-holder">
-              <p className="team-position">Architecture</p>
+              <p className="team-position">Stingray</p>
+              <p className="team-name">Will</p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://instagram.com/dymthelights57 "
+                className="team-contact"
+              >
+                @dymthelights57
+              </a>
+            </div>
+            <div className="team-holder">
+              <p className="team-position">Web Design</p>
               <p className="team-name">Katsuya</p>
               <a
                 target="_blank"

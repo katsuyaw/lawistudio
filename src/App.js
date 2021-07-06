@@ -1,5 +1,7 @@
 import "./App.css";
-import Background from "./img/bgb.jpg";
+import BackgroundBlack from "./img/bgb.jpg";
+import BackgroundWhite from "./img/bgw.png";
+import { useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,20 +16,25 @@ import Wisdom from "./pages/wisdom";
 import Intuition from "./pages/intuition";
 import Shop from "./pages/shop";
 import More from "./pages/more";
-import Studio from "./pages/studio";
 import Team from "./pages/team";
 import Support from "./pages/support";
 import Contact from "./pages/contact";
 import Terms from "./pages/terms";
 import Privacy from "./pages/privacy";
 import Footer from "./components/Footer";
+import Works from "./pages/works";
+import Gallery from "./pages/gallery";
 
 function App() {
+  const [bgi, setBgi] = useState(BackgroundBlack);
+  const handleBgi = (e) => {
+    setBgi(e);
+  };
   return (
     <main
       className="grid justify-items-center h-screen bg-cover"
       style={{
-        backgroundImage: `url(${Background})`,
+        backgroundImage: `url(${bgi})`,
       }}
     >
       <Router>
@@ -39,7 +46,12 @@ function App() {
           <Route path="/intuition" component={Intuition} />
           <Route path="/shop" component={Shop} />
           <Route path="/more" component={More} />
-          <Route path="/studio" component={Studio} />
+          <Route
+            path="/works"
+            component={Works}
+            onChange={() => setBgi({ BackgroundBlack })}
+          />
+          <Route path="/gallery" component={Gallery} />
           <Route path="/team" component={Team} />
           <Route path="/support" component={Support} />
           <Route path="/contact" component={Contact} />
