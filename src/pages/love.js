@@ -16,6 +16,7 @@ const love = () => {
             We write about things that matter to us and design looks to match
             its feel.{" "}
           </p>,
+          <br />,
 
           <p>We hope to inspire the next wave of rebel dreamers.</p>,
           // <div className="grid justify-center">
