@@ -12,6 +12,7 @@ const comingsoon = () => {
             <p>Coming Soon</p>
           </div>,
         ]}
+        button={<Link to="/">Home</Link>}
       />
     </>
   );

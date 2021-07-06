@@ -7,7 +7,7 @@ const contact = () => {
       <Card
         title=""
         body={[<p>Your voice matters</p>]}
-        button={<a mailto="info@lawistudios.com">Contact us</a>}
+        button={<a href="mailto:info@lawistudios.com">Contact us</a>}
         moreNav="true"
       />
     </>

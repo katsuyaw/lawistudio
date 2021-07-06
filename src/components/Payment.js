@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Book from "../img/book.jpg";
+import { Link } from "react-router-dom";
 
 const ProductDisplay = () => (
   <section className="grid text-xs ">
@@ -22,13 +23,13 @@ const ProductDisplay = () => (
       // method="POST"
       className="mt-3 grid justify-center sm:mt-7"
     >
-      <div
+      <Link
         // type="submit"
-        disabled
+        to="/wisdom"
         className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-4 sm:py-2 sm:px-8 sm:text-sm border  hover:border-transparent rounded-sm text-xs"
       >
         Coming Soon
-      </div>
+      </Link>
     </div>
   </section>
 );
