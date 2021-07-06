@@ -10,7 +10,10 @@ const wisdom = () => {
         body={[
           <p>
             Here is our street recipe for self-discovery, self-mastery, and
-            self-expression: The Law of Intuition.
+            self-expression:
+            <p />
+            <br />
+            <i>The Law of Intuition.</i>
           </p>,
           <br />,
           <p>

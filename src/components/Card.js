@@ -34,7 +34,7 @@ const Card = (props) => {
           {title && (
             <div className="mt-3 text-center font-title">{props.title}</div>
           )}
-          <div className="mt-6 font-body text-center text-sm sm:text-base sm:mt-10">
+          <div className="my-3 font-body text-center text-sm sm:text-base sm:mt-10">
             {props.body}
           </div>
         </body>
@@ -48,7 +48,7 @@ const Card = (props) => {
       </div> */}
       {button && (
         <div className="absolute bottom-12 w-full flex justify-center">
-          <button className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-4 sm:py-2 sm:px-8 sm:text-sm border  hover:border-transparent rounded-sm text-xs">
+          <button className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-3 sm:py-1 sm:px-5 sm:text-sm border  hover:border-transparent rounded-sm text-xs">
             {props.button}
           </button>
         </div>
