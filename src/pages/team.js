@@ -22,7 +22,7 @@ const team = () => {
               </a>
             </div>
             <div className="team-holder">
-              <p className="team-position">Consigliere</p>
+              <p className="team-position">Advisor</p>
               <p className="team-name">Danielle</p>
               <a
                 target="_blank"
@@ -46,7 +46,7 @@ const team = () => {
               </a>
             </div>
             <div className="team-holder">
-              <p className="team-position">Design</p>
+              <p className="team-position">Graphic Design</p>
               <p className="team-name">Sierra</p>
               <a
                 target="_blank"
@@ -58,8 +58,8 @@ const team = () => {
               </a>
             </div>
             <div className="team-holder">
-              <p className="team-position">Stingray</p>
-              <p className="team-name">Will</p>
+              <p className="team-position">Marketing</p>
+              <p className="team-name">Stingray</p>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
