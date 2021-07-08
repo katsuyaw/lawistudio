@@ -6,18 +6,17 @@ const support = () => {
     <>
       <Card
         title=""
-        body="A Surf Club In Liberia"
-        button="Coming Soon"
-        moreNav="true"
-        button={
+        body={
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.gofundme.com/f/liberiasurfclub"
+            className="underline"
           >
-            Build with us
+            A Surf Club In Liberia
           </a>
         }
+        moreNav="true"
       />
     </>
   );

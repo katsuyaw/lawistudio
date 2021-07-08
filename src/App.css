@@ -57,7 +57,7 @@
 }
 
 .team-position {
-  @apply flex-none w-20 text-left text-gray-200;
+  @apply flex-none w-24 text-left text-gray-200;
 }
 
 .team-name {
