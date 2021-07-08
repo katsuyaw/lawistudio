@@ -21,15 +21,14 @@ const Nav = (props) => {
       <NavLink to="/intuition" activeStyle={{ color: "white" }}>
         INTUITION
       </NavLink>
-      {more && (
-        <NavLink
-          to="/more"
-          activeStyle={{ color: "white" }}
-          className="w-auto h-4"
-        >
-          <p className="text-base leading-3 sm:leading-5">+</p>
-        </NavLink>
-      )}
+
+      <NavLink
+        to="/contact"
+        activeStyle={{ color: "white" }}
+        className="w-auto h-4"
+      >
+        <p className="text-base leading-3 sm:leading-5">+</p>
+      </NavLink>
     </>
   );
 };

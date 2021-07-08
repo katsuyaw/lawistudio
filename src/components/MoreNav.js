@@ -12,12 +12,14 @@ const moreNav = () => {
         <p className="text-base leading-3 sm:leading-5">-</p>
       </NavLink>
 
-      <NavLink to="/support" activeStyle={{ color: "white" }}>
-        SUPPORT
-      </NavLink>
       <NavLink to="/contact" activeStyle={{ color: "white" }}>
         CONTACT
       </NavLink>
+
+      <NavLink to="/support" activeStyle={{ color: "white" }}>
+        SUPPORT
+      </NavLink>
+
       <NavLink to="/works" activeStyle={{ color: "white" }}>
         GALLERY
       </NavLink>
