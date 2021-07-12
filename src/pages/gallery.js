@@ -36,8 +36,8 @@ const gallery = (props) => {
             GALLERY
           </h1>
           <div className="flex justify-center"></div>
-          <p className="text-white sm:text-4xl sm:font-normal my-10 px-5">
-            Persona
+          <p className="text-white text-center sm:text-4xl sm:font-normal my-10 px-5">
+            -Persona-
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             <Zoom>
@@ -52,8 +52,8 @@ const gallery = (props) => {
               </Zoom>
             </div>
           </div>
-          <p className="text-white sm:text-4xl sm:font-normal my-10 px-5">
-            Concepts
+          <p className="text-white text-center sm:text-4xl sm:font-normal my-10 px-5">
+            -Concepts-
           </p>
           <div className="grid sm:grid-cols-3 gap-4">
             <Zoom>
