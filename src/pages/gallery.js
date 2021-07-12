@@ -4,26 +4,22 @@ import { Link } from "react-router-dom";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
-import artwork1 from "../img/artworks/artwork1.jpg";
-import artwork2 from "../img/artworks/artwork2.jpg";
-import artwork3 from "../img/artworks/artwork3.jpg";
-import artwork4 from "../img/artworks/artwork4.jpg";
-import artwork5 from "../img/artworks/artwork5.jpg";
-import artwork6 from "../img/artworks/artwork6.jpg";
-import artwork7 from "../img/artworks/artwork7.jpg";
-import artwork8 from "../img/artworks/artwork8.jpg";
-import artwork9 from "../img/artworks/artwork9.jpg";
-import artwork10 from "../img/artworks/artwork10.jpg";
-import artwork11 from "../img/artworks/artwork11.jpg";
-import artwork12 from "../img/artworks/artwork12.jpg";
-import artwork13 from "../img/artworks/artwork13.jpg";
-import artwork14 from "../img/artworks/artwork14.jpg";
-import artwork15 from "../img/artworks/artwork15.jpg";
-import artwork16 from "../img/artworks/artwork16.jpg";
-import artwork17 from "../img/artworks/artwork17.jpg";
-import artwork18 from "../img/artworks/artwork18.jpg";
-import artwork19 from "../img/artworks/artwork19.jpg";
-import artwork20 from "../img/artworks/artwork20.jpg";
+import persona1 from "../img/gallery/persona1.jpeg";
+import persona2 from "../img/gallery/persona2.jpeg";
+import persona3 from "../img/gallery/persona3.jpeg";
+import comcept1 from "../img/gallery/concept1.jpeg";
+import comcept2 from "../img/gallery/concept2.jpeg";
+import comcept3 from "../img/gallery/concept3.jpeg";
+import comcept4 from "../img/gallery/concept4.jpeg";
+import comcept5 from "../img/gallery/concept5.jpeg";
+import comcept6 from "../img/gallery/concept6.jpeg";
+import comcept7 from "../img/gallery/concept7.jpeg";
+import comcept8 from "../img/gallery/concept8.jpeg";
+import comcept9 from "../img/gallery/concept9.jpeg";
+import comcept10 from "../img/gallery/concept10.jpeg";
+import comcept11 from "../img/gallery/concept11.jpeg";
+import comcept12 from "../img/gallery/concept12.jpeg";
+import comcept13 from "../img/gallery/concept13.jpeg";
 
 const gallery = (props) => {
   return (
@@ -45,81 +41,59 @@ const gallery = (props) => {
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             <Zoom>
-              <img src={artwork1} />
+              <img src={persona3} />
             </Zoom>
-            <Zoom>
-              <img src={artwork2} />
-            </Zoom>
+            <div>
+              <Zoom>
+                <img src={persona1} />
+              </Zoom>
+              <Zoom>
+                <img src={persona2} />
+              </Zoom>
+            </div>
           </div>
-          <p className="text-white sm:text-4xl text-right sm:font-normal my-10 px-5">
+          <p className="text-white sm:text-4xl sm:font-normal my-10 px-5">
             Concepts
           </p>
           <div className="grid sm:grid-cols-3 gap-4">
             <Zoom>
-              <img src={artwork3} />
+              <img src={comcept1} />
             </Zoom>
             <Zoom>
-              <img src={artwork4} />
+              <img src={comcept2} />
             </Zoom>
             <Zoom>
-              <img src={artwork5} />
+              <img src={comcept3} />
             </Zoom>
             <Zoom>
-              <img src={artwork6} />
+              <img src={comcept4} />
             </Zoom>
             <Zoom>
-              <img src={artwork7} />
+              <img src={comcept5} />
             </Zoom>
             <Zoom>
-              <img src={artwork8} />
+              <img src={comcept6} />
             </Zoom>
             <Zoom>
-              <img src={artwork9} />
+              <img src={comcept7} />
             </Zoom>
             <Zoom>
-              <img src={artwork9} />
+              <img src={comcept8} />
             </Zoom>
             <Zoom>
-              <img src={artwork9} />
+              <img src={comcept9} />
             </Zoom>
             <Zoom>
-              <img src={artwork9} />
+              <img src={comcept10} />
             </Zoom>
             <Zoom>
-              <img src={artwork9} />
+              <img src={comcept11} />
             </Zoom>
             <Zoom>
-              <img src={artwork10} />
+              <img src={comcept12} />
             </Zoom>
             <Zoom>
-              <img src={artwork11} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork12} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork13} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork14} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork15} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork16} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork17} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork18} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork19} />
-            </Zoom>
-            <Zoom>
-              <img src={artwork20} />
+              <img src={comcept13} />
             </Zoom>
           </div>
         </div>
