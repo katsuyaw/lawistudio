@@ -7,91 +7,80 @@ import { Scrollbars } from "react-custom-scrollbars-2";
 import LargeCard from "../components/LargeCard";
 import MoreNav from "../components/MoreNav";
 
-import personaCover from "../img/gallery/persona-cover.jpeg";
 import persona1 from "../img/gallery/persona1.jpeg";
 import persona2 from "../img/gallery/persona2.jpeg";
-import concept1 from "../img/gallery/concept1.jpeg";
-import concept2 from "../img/gallery/concept2.jpeg";
-import concept3 from "../img/gallery/concept3.jpeg";
-import concept4 from "../img/gallery/concept4.jpeg";
-import concept5 from "../img/gallery/concept5.jpeg";
-import concept6 from "../img/gallery/concept6.jpeg";
-import concept7 from "../img/gallery/concept7.jpeg";
-import concept8 from "../img/gallery/concept8.jpeg";
-import concept9 from "../img/gallery/concept9.jpeg";
-import concept10 from "../img/gallery/concept10.jpeg";
-import concept11 from "../img/gallery/concept11.jpeg";
-import concept12 from "../img/gallery/concept12.jpeg";
-import concept13 from "../img/gallery/concept13.jpeg";
+import persona3 from "../img/gallery/persona3.jpeg";
+import concept2a from "../img/gallery/concept2a.jpeg";
+import concept3a from "../img/gallery/concept3a.jpeg";
+import concept4a from "../img/gallery/concept4a.jpeg";
+import concept4b from "../img/gallery/concept4b.jpeg";
+import concept5a from "../img/gallery/concept5a.jpeg";
+import concept5b from "../img/gallery/concept5b.jpeg";
+import concept6a from "../img/gallery/concept6a.jpeg";
+import concept6b from "../img/gallery/concept6b.jpeg";
+import concept7a from "../img/gallery/concept7a.jpeg";
+import concept7b from "../img/gallery/concept7b.jpeg";
+import concept8a from "../img/gallery/concept8a.jpeg";
+import concept9a from "../img/gallery/concept9a.jpeg";
 
 const gallery = (props) => {
   return (
     <>
       <LargeCard
-        title={"Persona"}
         body={
           // <div className="overflow-auto h-52 w-34">
           <div className="">
-            <Zoom>
-              <img src={personaCover} />
-            </Zoom>
-            <Zoom>
-              <img src={persona1} />
-            </Zoom>
-            <Zoom>
-              <img src={persona2} />
-            </Zoom>
-            <Zoom>
-              <img src={concept1} />
-            </Zoom>
-            <Zoom>
-              <img src={concept2} />
-            </Zoom>
-            <Zoom>
-              <img src={concept3} />
-            </Zoom>
-            <Zoom>
-              <img src={concept4} />
-            </Zoom>
-            <Zoom>
-              <img src={concept1} />
-            </Zoom>
-            <Zoom>
-              <img src={concept2} />
-            </Zoom>
-            <Zoom>
-              <img src={concept3} />
-            </Zoom>
-            <Zoom>
-              <img src={concept4} />
-            </Zoom>
-            <Zoom>
-              <img src={concept5} />
-            </Zoom>
-            <Zoom>
-              <img src={concept6} />
-            </Zoom>
-            <Zoom>
-              <img src={concept7} />
-            </Zoom>
-            <Zoom>
-              <img src={concept8} />
-            </Zoom>
-            <Zoom>
-              <img src={concept9} />
-            </Zoom>
-            <Zoom>
-              <img src={concept10} />
-            </Zoom>
-            <Zoom>
-              <img src={concept11} />
-            </Zoom>
-            <Zoom>
-              <img src={concept12} />
-            </Zoom>
-            <Zoom>
-              <img src={concept13} />
-            </Zoom>
+            <div>
+              <p className="font-thin">Persona</p>
+              <Zoom>
+                <img src={persona1} />
+              </Zoom>
+              <Zoom>
+                <img src={persona2} />
+              </Zoom>
+              <Zoom>
+                <img src={persona3} />
+              </Zoom>
+            </div>
+            <div className="mt-5">
+              <p className="font-thin">Concept</p>
+              <Zoom>
+                <img src={concept2a} />
+              </Zoom>
+              <Zoom>
+                <img src={concept3a} />
+              </Zoom>
+              <Zoom>
+                <img src={concept4a} />
+              </Zoom>
+              <Zoom>
+                <img src={concept4b} />
+              </Zoom>
+              <Zoom>
+                <img src={concept5a} />
+              </Zoom>
+              <Zoom>
+                <img src={concept5b} />
+              </Zoom>
+              <Zoom>
+                <img src={concept6a} />
+              </Zoom>
+              <Zoom>
+                <img src={concept6b} />
+              </Zoom>
+              <Zoom>
+                <img src={concept7a} />
+              </Zoom>
+              <Zoom>
+                <img src={concept7b} />
+              </Zoom>
+              <Zoom>
+                <img src={concept8a} />
+              </Zoom>
+              <Zoom>
+                <img src={concept9a} />
+              </Zoom>
+            </div>
           </div>
         }
       />
