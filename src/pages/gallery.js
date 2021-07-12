@@ -27,6 +27,7 @@ const gallery = (props) => {
   return (
     <>
       <LargeCard
+        logo={"LAWI GALLERY"}
         body={
           // <div className="overflow-auto h-52 w-34">
           <div className="">

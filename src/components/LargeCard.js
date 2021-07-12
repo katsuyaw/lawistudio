@@ -15,7 +15,7 @@ const LargeCard = (props) => {
         <div className="flex flex-col justify-center items-center mx-5">
           <Link to="/" exact>
             <h1 className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
-              LAWI
+              {props.logo}
             </h1>
           </Link>
 
