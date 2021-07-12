@@ -20,7 +20,7 @@ const LargeCard = (props) => {
           </Link>
 
           <body className="">
-            <div className="font-body text-center text-sm sm:text-base sm:mt-10 overflow-auto  h-96 px-2 sm:px-64">
+            <div className="font-body text-center text-sm sm:text-base sm:mt-10 overflow-auto h-96 px-2 lg:px-32">
               {props.body}
             </div>
           </body>

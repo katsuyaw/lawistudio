@@ -30,21 +30,23 @@ const gallery = (props) => {
         logo={"LAWI GALLERY"}
         body={
           // <div className="overflow-auto h-52 w-34">
-          <div className="">
-            <div>
-              <p className="font-thin">Persona</p>
+          <div>
+            <p className="my-2 font-thin">Persona</p>
+            <div className="flex flex-col gap-10 items-center">
               <Zoom>
                 <img src={persona1} />
               </Zoom>
-              <Zoom>
-                <img src={persona2} />
-              </Zoom>
-              <Zoom>
-                <img src={persona3} />
-              </Zoom>
+              <div className="grid sm:grid-cols-2 gap-10">
+                <Zoom>
+                  <img src={persona2} />
+                </Zoom>
+                <Zoom>
+                  <img src={persona3} />
+                </Zoom>
+              </div>
             </div>
-            <div className="mt-5">
-              <p className="font-thin">Concept</p>
+            <p className="my-5 font-thin">Concept</p>
+            <div className=" flex flex-col sm:grid md:grid-cols-2 lg:grid-cols-3 gap-10">
               <Zoom>
                 <img src={concept2a} />
               </Zoom>
