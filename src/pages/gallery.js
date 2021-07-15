@@ -45,7 +45,7 @@ const gallery = (props) => {
               </div>
             </div>
             <p className="my-5 font-thin">Concept</p>
-            <div className=" flex flex-col sm:grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className=" flex flex-col sm:grid md:grid-cols-2 gap-10">
               <Zoom>
                 <img src={concept2a} />
               </Zoom>
