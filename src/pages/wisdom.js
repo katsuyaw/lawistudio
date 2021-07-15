@@ -24,7 +24,7 @@ const wisdom = (props) => {
           </div>,
         ]}
         // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
-        button={<Link to="/shop">Surf with us</Link>}
+        button={<div>Coming Soon</div>}
         nav={props.nav}
       />
     </>
