@@ -2,10 +2,11 @@ import React from "react";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 
-const wisdom = () => {
+const wisdom = (props) => {
   return (
     <>
       <Card
+        onClick={props.onClick}
         title=""
         text={[
           <div>
@@ -24,7 +25,7 @@ const wisdom = () => {
         ]}
         // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
         button={<Link to="/shop">Surf with us</Link>}
-        nav="true"
+        nav={props.nav}
       />
     </>
   );

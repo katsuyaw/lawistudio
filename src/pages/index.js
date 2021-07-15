@@ -1,34 +1,37 @@
 import React from "react";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
+import HomeCard from "../components/HomeCard";
 import { cacheNames } from "workbox-core/_private";
 
-const home = () => {
+const home = (props) => {
+  const nav = props.nav;
   return (
     <>
-      <Card
+      <HomeCard
         menu={[
-          <Link to="/love">
+          <Link to="/love" onClick={props.onClick}>
             <p className="">
               L<span className="font-gray hover:text-white">OVE</span>
             </p>
           </Link>,
-          <Link to="/awareness">
+          <Link to="/awareness" onClick={props.onClick}>
             <p>
               A<span className="font-gray hover:text-white">WARENESS</span>
             </p>
           </Link>,
-          <Link to="/wisdom">
+          <Link to="/wisdom" onClick={props.onClick}>
             <p>
               W<span className="font-gray hover:text-white">ISDOM</span>
             </p>
           </Link>,
-          <Link to="/intuition">
+          <Link to="/intuition" onClick={props.onClick}>
             <p>
               I<span className="font-gray hover:text-white">NTUITION</span>
             </p>
           </Link>,
         ]}
+        nav={true}
       />
     </>
   );

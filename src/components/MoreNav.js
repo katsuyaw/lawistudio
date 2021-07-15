@@ -1,16 +1,21 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const moreNav = () => {
+const moreNav = (props) => {
   return (
     <>
-      <NavLink
-        to="/intuition"
+      <div
+        //to="/intuition"
         activeStyle={{ color: "gray" }}
         className="w-2 h-auto"
       >
-        <p className="text-base leading-3 sm:leading-5">-</p>
-      </NavLink>
+        <button
+          className="text-base leading-3 sm:leading-6"
+          onClick={props.onClick}
+        >
+          -
+        </button>
+      </div>
 
       <NavLink to="/contact" activeStyle={{ color: "white" }}>
         CONTACT

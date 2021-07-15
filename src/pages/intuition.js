@@ -2,10 +2,11 @@ import React from "react";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 
-const intuition = () => {
+const intuition = (props) => {
   return (
     <>
       <Card
+        onClick={props.onClick}
         title=""
         text={[
           <p>Welcome to our studio.</p>,
@@ -21,8 +22,7 @@ const intuition = () => {
           </p>,
         ]}
         button="Coming Soon"
-        nav="true"
-        more="true"
+        nav={props.nav}
       />
     </>
   );

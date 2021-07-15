@@ -7,9 +7,7 @@ const Card = (props) => {
   const menu = props.menu;
   const title = props.title;
   const button = props.button;
-  const nav = props.nav;
-  const moreNav = props.moreNav;
-  const more = props.more;
+  const switchNav = props.nav;
 
   return (
     <div
@@ -18,9 +16,12 @@ const Card = (props) => {
     >
       <div className="grid justify-center mx-10">
         <Link to="/">
-          <h1 className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
+          <div
+            className="text-3xl pt-6 text-center font-lawi sm:text-4xl"
+            onClick={props.onClick}
+          >
             LAWI
-          </h1>
+          </div>
         </Link>
 
         <div className="" key="body">
@@ -39,7 +40,6 @@ const Card = (props) => {
           </div>
         </div>
       </div>
-
       {button && (
         <div
           className="absolute bottom-12 w-full flex justify-center"
@@ -50,20 +50,20 @@ const Card = (props) => {
           </button>
         </div>
       )}
-      {nav && (
+
+      {switchNav ? (
         <div
           className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base"
           key="nav"
         >
-          <Nav more={more} />
+          <Nav onClick={props.onClick} />
         </div>
-      )}
-      {moreNav && (
+      ) : (
         <div
           className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base"
           key="moreNav"
         >
-          <MoreNav />
+          <MoreNav onClick={props.onClick} />
         </div>
       )}
     </div>

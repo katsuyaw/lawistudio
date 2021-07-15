@@ -2,10 +2,14 @@ import React from "react";
 import Card from "../components/Card";
 
 const love = (props) => {
+  const test = () => {
+    console.log("test");
+  };
+  console.log(props);
   return (
     <>
       <Card
-        title=" "
+        onClick={props.onClick}
         text={[
           <div>
             <p>
@@ -15,7 +19,7 @@ const love = (props) => {
             <br />
             <p>
               We write about things that matter to us and design looks to match
-              its feel.{" "}
+              its feel.
             </p>
             <br />
             <p>We hope to inspire the next wave of rebel dreamers.</p>
@@ -30,8 +34,7 @@ const love = (props) => {
             Explore
           </a>
         }
-        nav="true"
-        onPress={() => props.onPress}
+        nav={props.nav}
       />
     </>
   );

@@ -6,7 +6,7 @@ const terms = () => {
     <>
       <Card
         title=""
-        body={[
+        text={[
           <div className="overflow-auto h-52 w-34">
             <h1>Terms and Conditions</h1>
             <p>Last updated: July 04, 2021</p>

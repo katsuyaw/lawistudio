@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "../components/Card";
 
-const awareness = () => {
+const awareness = (props) => {
   return (
     <>
       <Card
-        title=""
+        onClick={props.onClick}
         text={[
           <p>
             This is the part where we defy self-limiting societal norms and
@@ -24,7 +24,7 @@ const awareness = () => {
             Stand with us
           </a>
         }
-        nav="true"
+        nav={props.nav}
       />
     </>
   );

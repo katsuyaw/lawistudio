@@ -2,10 +2,11 @@ import React from "react";
 import Card from "../components/Card";
 import "../App.css";
 
-const team = () => {
+const team = (props) => {
   return (
     <>
       <Card
+        onClick={props.onClick}
         title=""
         text={
           <div className="flex flex-col text-xs gap-4 sm:gap-6">
@@ -83,7 +84,7 @@ const team = () => {
             </div>
           </div>
         }
-        moreNav="true"
+        nav={props.nav}
       />
     </>
   );

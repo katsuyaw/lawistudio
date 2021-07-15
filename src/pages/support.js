@@ -1,10 +1,11 @@
 import React from "react";
 import Card from "../components/Card";
 
-const support = () => {
+const support = (props) => {
   return (
     <>
       <Card
+        onClick={props.onClick}
         title=""
         text={
           <a
@@ -16,7 +17,7 @@ const support = () => {
             A Surf Club In Liberia
           </a>
         }
-        moreNav="true"
+        nav={props.nav}
       />
     </>
   );

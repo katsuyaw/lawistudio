@@ -26,30 +26,60 @@ import ComingSoon from "./pages/comingsoon";
 
 function App() {
   const [background, setBackground] = useState(blackBackground);
+  const [nav, setNav] = useState(true);
+  const handleNav = () => {
+    setNav((current) => !current);
+  };
+  const handleDefaultNav = () => {
+    setNav(true);
+  };
 
   return (
     <div
       className="grid justify-items-center h-screen bg-cover"
       style={{
-        backgroundImage: `url(${blackBackground})`,
+        backgroundImage: `url(${background})`,
       }}
     >
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/love">
-            <Love onPress={() => alert("hi")} key="love" />
+          <Route exact path="/">
+            <Home nav={nav} onClick={() => handleDefaultNav()} />
           </Route>
-          <Route path="/awareness" component={Awareness} />
-          <Route path="/wisdom" component={Wisdom} />
-          <Route path="/intuition" component={Intuition} />
-          <Route path="/shop" component={Shop} />
-          <Route path="/works" component={Works} />
-          <Route path="/gallery" component={Gallery} />
-          <Route path="/team" component={Team} />
-          <Route path="/support" component={Support} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/comingsoon" component={ComingSoon} />
+          <Route path="/love">
+            <Love nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/awareness">
+            <Awareness nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/wisdom">
+            <Wisdom nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/intuition">
+            <Intuition nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/shop">
+            <Shop nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/works">
+            <Works nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/gallery">
+            <Gallery nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/team">
+            <Team nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/support">
+            <Support nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/contact">
+            <Contact nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/comingsoon">
+            <Contact nav={nav} onClick={() => handleNav()} />
+          </Route>
+
           <Route path="/terms" component={Terms} />
           <Route path="/privacy" component={Privacy} />
           <Redirect to="/" />
