@@ -14,7 +14,7 @@ const ShopCard = (props) => {
       style={{ borderColor: "#2F2F2F" }}
     >
       <div className="grid justify-center mx-10">
-        <Link to="/" exact>
+        <Link to="/">
           <h1 className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
             LAWI
           </h1>

@@ -6,7 +6,7 @@ const awareness = () => {
     <>
       <Card
         title=""
-        body={[
+        text={[
           <p>
             This is the part where we defy self-limiting societal norms and
             advocate for environmental justice and social equality.

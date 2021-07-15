@@ -7,7 +7,7 @@ const works = (props) => {
     <>
       <Card
         title=""
-        body="Behind the scenes"
+        text="Behind the scenes"
         moreNav="true"
         button={<Link to="/gallery">Peep</Link>}
       />

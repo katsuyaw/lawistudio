@@ -13,7 +13,7 @@ const LargeCard = (props) => {
         style={{ borderColor: "#2F2F2F" }}
       >
         <div className="flex flex-col justify-center items-center mx-5">
-          <Link to="/" exact>
+          <Link to="/">
             <h1 className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
               {props.logo}
             </h1>

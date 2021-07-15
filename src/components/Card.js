@@ -17,13 +17,13 @@ const Card = (props) => {
       style={{ borderColor: "#2F2F2F" }}
     >
       <div className="grid justify-center mx-10">
-        <Link to="/" exact>
+        <Link to="/">
           <h1 className="text-3xl pt-6 text-center font-lawi sm:text-4xl">
             LAWI
           </h1>
         </Link>
 
-        <body className="">
+        <div className="" key="body">
           {menu && (
             <div className="flex h-full mt-14 sm:mt-20">
               <div className="text-sm sm:text-base text-start font-menu ">
@@ -35,31 +35,34 @@ const Card = (props) => {
             <div className="mt-3 text-center font-title">{props.title}</div>
           )}
           <div className="my-3 font-body text-center text-sm sm:text-base sm:mt-10">
-            {props.body}
+            {props.text}
           </div>
-        </body>
-      </div>
-      {/* <div className="">
-        <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <button className="bg-transparent hover:bg-gray-400 font-semibold hover:text-white py-2 px-4 border  hover:border-transparent rounded">
-            Join
-          </button>
         </div>
-      </div> */}
+      </div>
+
       {button && (
-        <div className="absolute bottom-12 w-full flex justify-center">
+        <div
+          className="absolute bottom-12 w-full flex justify-center"
+          key="button"
+        >
           <button className="bg-transparent hover:bg-white font-semibold hover:text-black py-1 px-3 sm:py-1 sm:px-5 sm:text-sm border  hover:border-transparent rounded-sm text-xs">
             {props.button}
           </button>
         </div>
       )}
       {nav && (
-        <div className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
+        <div
+          className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base"
+          key="nav"
+        >
           <Nav more={more} />
         </div>
       )}
       {moreNav && (
-        <div className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base">
+        <div
+          className="absolute bottom-2 text-xs w-full  flex justify-evenly px-4 text-gray-500 sm:text-base"
+          key="moreNav"
+        >
           <MoreNav />
         </div>
       )}

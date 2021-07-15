@@ -7,20 +7,20 @@ const wisdom = () => {
     <>
       <Card
         title=""
-        body={[
-          <p>
-            Here is our street recipe for self-discovery, self-mastery, and
-            self-expression:
-            <p />
+        text={[
+          <div>
+            <p>
+              Here is our street recipe for self-discovery, self-mastery, and
+              self-expression:
+            </p>
             <br />
             <i>The Law of Intuition.</i>
-          </p>,
-          <br />,
-          <p>
-            {" "}
-            Ingredients include scientific fact, universal truths, you, and the
-            ocean.
-          </p>,
+            <br />
+            <p>
+              Ingredients include scientific fact, universal truths, you, and
+              the ocean.
+            </p>
+          </div>,
         ]}
         // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
         button={<Link to="/shop">Surf with us</Link>}

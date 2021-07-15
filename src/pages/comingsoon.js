@@ -7,7 +7,7 @@ const comingsoon = () => {
     <>
       <Card
         title=""
-        body={[
+        text={[
           <div>
             <p>Coming Soon</p>
           </div>,

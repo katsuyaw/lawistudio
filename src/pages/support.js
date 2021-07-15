@@ -6,7 +6,7 @@ const support = () => {
     <>
       <Card
         title=""
-        body={
+        text={
           <a
             target="_blank"
             rel="noopener noreferrer"

@@ -7,7 +7,7 @@ const intuition = () => {
     <>
       <Card
         title=""
-        body={[
+        text={[
           <p>Welcome to our studio.</p>,
           <br />,
           <p>

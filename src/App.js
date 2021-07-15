@@ -6,7 +6,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   Redirect,
 } from "react-router-dom";
 import Home from "./pages/index";
@@ -15,7 +14,6 @@ import Love from "./pages/love";
 import Wisdom from "./pages/wisdom";
 import Intuition from "./pages/intuition";
 import Shop from "./pages/shop";
-import More from "./pages/more";
 import Team from "./pages/team";
 import Support from "./pages/support";
 import Contact from "./pages/contact";
@@ -39,17 +37,14 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/love" component={Love} />
+          <Route path="/love">
+            <Love onPress={() => alert("hi")} key="love" />
+          </Route>
           <Route path="/awareness" component={Awareness} />
           <Route path="/wisdom" component={Wisdom} />
           <Route path="/intuition" component={Intuition} />
           <Route path="/shop" component={Shop} />
-          <Route path="/more" component={More} />
-          <Route
-            path="/works"
-            component={Works}
-            onChange={() => setBackground({ blackBackground })}
-          />
+          <Route path="/works" component={Works} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/team" component={Team} />
           <Route path="/support" component={Support} />
