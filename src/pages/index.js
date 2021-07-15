@@ -1,5 +1,4 @@
 import React from "react";
-import Background from "../img/bgb.jpg";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 import { cacheNames } from "workbox-core/_private";

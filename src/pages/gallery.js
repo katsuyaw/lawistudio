@@ -3,7 +3,6 @@ import Card from "../components/Card";
 import { Link } from "react-router-dom";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
-import { Scrollbars } from "react-custom-scrollbars-2";
 import LargeCard from "../components/LargeCard";
 import MoreNav from "../components/MoreNav";
 

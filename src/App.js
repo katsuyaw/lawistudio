@@ -1,6 +1,6 @@
 import "./App.css";
-import BackgroundBlack from "./img/bgb.jpg";
-import BackgroundWhite from "./img/bgw.png";
+import blackBackground from "./img/black-background.jpg";
+import whiteBackground from "./img/white-background.png";
 import { useState } from "react";
 import {
   BrowserRouter as Router,
@@ -27,15 +27,13 @@ import Gallery from "./pages/gallery";
 import ComingSoon from "./pages/comingsoon";
 
 function App() {
-  const [bgi, setBgi] = useState(BackgroundBlack);
-  const handleBgi = (e) => {
-    setBgi(e);
-  };
+  const [background, setBackground] = useState(blackBackground);
+
   return (
-    <main
+    <div
       className="grid justify-items-center h-screen bg-cover"
       style={{
-        backgroundImage: `url(${bgi})`,
+        backgroundImage: `url(${blackBackground})`,
       }}
     >
       <Router>
@@ -50,7 +48,7 @@ function App() {
           <Route
             path="/works"
             component={Works}
-            onChange={() => setBgi({ BackgroundBlack })}
+            onChange={() => setBackground({ blackBackground })}
           />
           <Route path="/gallery" component={Gallery} />
           <Route path="/team" component={Team} />
@@ -63,7 +61,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-    </main>
+    </div>
   );
 }
 
