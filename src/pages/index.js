@@ -1,11 +1,8 @@
 import React from "react";
-import Card from "../components/Card";
 import { Link } from "react-router-dom";
-import HomeCard from "../components/HomeCard";
-import { cacheNames } from "workbox-core/_private";
+import { HomeCard } from "../components/index";
 
 const home = (props) => {
-  const nav = props.nav;
   return (
     <>
       <HomeCard
