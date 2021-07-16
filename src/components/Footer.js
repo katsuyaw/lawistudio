@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Footer = (props) => {
-  const more = props.more;
+export const Footer = (props) => {
   return (
     <>
       <div className="relative w-screen">
@@ -16,5 +15,3 @@ const Footer = (props) => {
     </>
   );
 };
-
-export default Footer;

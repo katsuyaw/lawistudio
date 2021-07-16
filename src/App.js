@@ -1,6 +1,6 @@
 import "./App.css";
 import blackBackground from "./img/black-background.jpg";
-import whiteBackground from "./img/white-background.png";
+//import whiteBackground from "./img/white-background.png";
 import { useState } from "react";
 import {
   BrowserRouter as Router,
@@ -9,21 +9,24 @@ import {
   Redirect,
 } from "react-router-dom";
 import Home from "./pages/index";
-import Awareness from "./pages/awareness";
-import Love from "./pages/love";
-import Wisdom from "./pages/wisdom";
-import Intuition from "./pages/intuition";
-import Shop from "./pages/shop";
-import Team from "./pages/team";
-import Support from "./pages/support";
-import Contact from "./pages/contact";
-import Terms from "./pages/terms";
-import Privacy from "./pages/privacy";
-import Footer from "./components/Footer";
-import Works from "./pages/works";
-import Gallery from "./pages/gallery";
-import ComingSoon from "./pages/comingsoon";
-import Katsuya from "./pages/katsuya";
+
+import { Footer } from "./components";
+import {
+  Awareness,
+  Love,
+  Wisdom,
+  Intuition,
+  Shop,
+  Team,
+  Support,
+  Contact,
+  Terms,
+  Privacy,
+  Works,
+  Gallery,
+  ComingSoon,
+  Katsuya,
+} from "./pages/import";
 
 function App() {
   const [background, setBackground] = useState(blackBackground);
