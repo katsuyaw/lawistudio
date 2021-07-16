@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const HomeCard = (props) => {
+const HomeCard = (props) => {
   const menu = props.menu;
   return (
     <div
@@ -28,3 +28,5 @@ export const HomeCard = (props) => {
     </div>
   );
 };
+
+export default HomeCard;
