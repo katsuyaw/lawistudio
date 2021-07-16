@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HomeCard } from "../components/index";
+import { HomeCard } from "../components/";
 
 const home = (props) => {
   return (
