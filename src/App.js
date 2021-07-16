@@ -23,6 +23,7 @@ import Footer from "./components/Footer";
 import Works from "./pages/works";
 import Gallery from "./pages/gallery";
 import ComingSoon from "./pages/comingsoon";
+import Katsuya from "./pages/katsuya";
 
 function App() {
   const [background, setBackground] = useState(blackBackground);
@@ -78,6 +79,9 @@ function App() {
           </Route>
           <Route path="/comingsoon">
             <Contact nav={nav} onClick={() => handleNav()} />
+          </Route>
+          <Route path="/katsuya">
+            <Katsuya />
           </Route>
 
           <Route path="/terms" component={Terms} />

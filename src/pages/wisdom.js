@@ -17,6 +17,7 @@ const wisdom = (props) => {
             <br />
             <i>The Law of Intuition.</i>
             <br />
+            <br />
             <p>
               Ingredients include scientific fact, universal truths, you, and
               the ocean.
