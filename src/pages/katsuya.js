@@ -1,10 +1,10 @@
 import React from "react";
-import Card from "../components/Card";
+import MemberCard from "../components/MemberCard";
 
 function katsuya() {
   return (
     <div>
-      <Card
+      <MemberCard
         title="KATSUYA"
         text={
           <div>
