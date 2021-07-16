@@ -72,7 +72,12 @@ const team = (props) => {
             </div>
             <div className="team-holder">
               <p className="team-position">Web Design</p>
-              <p className="team-name">Katsuya</p>
+              <p
+                className="team-name"
+                onDoubleClick={() => alert("Check /katsuya")}
+              >
+                Katsuya
+              </p>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
