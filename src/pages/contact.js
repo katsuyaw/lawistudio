@@ -5,9 +5,10 @@ const contact = (props) => {
   return (
     <>
       <Card
+        key="contact"
         onClick={props.onClick}
         title=""
-        text={[<p>Hi</p>]}
+        text={<p>Hi</p>}
         button={<a href="mailto:info@lawistudios.com">Collaborate</a>}
         nav={props.nav}
       />

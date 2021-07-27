@@ -1,11 +1,7 @@
 import React from "react";
-import Nav from "./Nav";
-import MoreNav from "./MoreNav";
 import { NavLink, Link } from "react-router-dom";
 
 const LargeCard = (props) => {
-  const title = props.title;
-
   return (
     <div className="h-screen flex justify-center items-center ">
       <div

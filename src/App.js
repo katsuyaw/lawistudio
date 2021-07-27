@@ -24,12 +24,11 @@ import {
   Privacy,
   Works,
   Gallery,
-  ComingSoon,
   Credit,
 } from "./pages/import";
 
 function App() {
-  const [background, setBackground] = useState(blackBackground);
+  //const [background, setBackground] = useState(blackBackground);
   const [nav, setNav] = useState(true);
   const handleNav = () => {
     setNav((current) => !current);
@@ -42,7 +41,8 @@ function App() {
     <div
       className="grid justify-items-center h-screen bg-cover"
       style={{
-        backgroundImage: `url(${background})`,
+        backgroundImage: `url(${blackBackground})`,
+        // backgroundImage: `url(${background})`,
       }}
     >
       <Router>

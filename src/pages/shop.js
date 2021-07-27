@@ -5,7 +5,7 @@ import Payment from "../components/Payment";
 const shop = () => {
   return (
     <>
-      <ShopCard text={[<Payment />]} />
+      <ShopCard key="shop" text={[<Payment />]} />
     </>
   );
 };

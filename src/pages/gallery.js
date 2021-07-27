@@ -23,6 +23,7 @@ const gallery = (props) => {
   return (
     <>
       <LargeCard
+        key="gallery"
         logo={"LAWI GALLERY"}
         body={
           // <div className="overflow-auto h-52 w-34">
@@ -30,54 +31,54 @@ const gallery = (props) => {
             <p className="my-2 font-thin">Persona</p>
             <div className="flex flex-col gap-10 items-center">
               <Zoom>
-                <img src={persona1} />
+                <img src={persona1} alt="persona1" />
               </Zoom>
               <div className="grid sm:grid-cols-2 gap-10">
                 <Zoom>
-                  <img src={persona2} />
+                  <img src={persona2} alt="persona2" />
                 </Zoom>
                 <Zoom>
-                  <img src={persona3} />
+                  <img src={persona3} alt="persona3" />
                 </Zoom>
               </div>
             </div>
             <p className="my-5 font-thin">Concepts</p>
             <div className=" flex flex-col sm:grid md:grid-cols-2 gap-10">
               <Zoom>
-                <img src={concept2a} />
+                <img src={concept2a} alt="concept2a" />
               </Zoom>
               <Zoom>
-                <img src={concept3a} />
+                <img src={concept3a} alt="concept3a" />
               </Zoom>
               <Zoom>
-                <img src={concept4a} />
+                <img src={concept4a} alt="concept4a" />
               </Zoom>
               <Zoom>
-                <img src={concept4b} />
+                <img src={concept4b} alt="concept4b" />
               </Zoom>
               <Zoom>
-                <img src={concept5a} />
+                <img src={concept5a} alt="concept5a" />
               </Zoom>
               <Zoom>
-                <img src={concept5b} />
+                <img src={concept5b} alt="concept5b" />
               </Zoom>
               <Zoom>
-                <img src={concept6a} />
+                <img src={concept6a} alt="concept6a" />
               </Zoom>
               <Zoom>
-                <img src={concept6b} />
+                <img src={concept6b} alt="concept6b" />
               </Zoom>
               <Zoom>
-                <img src={concept7a} />
+                <img src={concept7a} alt="concept7a" />
               </Zoom>
               <Zoom>
-                <img src={concept7b} />
+                <img src={concept7b} alt="concept7b" />
               </Zoom>
               <Zoom>
-                <img src={concept8a} />
+                <img src={concept8a} alt="concept8a" />
               </Zoom>
               <Zoom>
-                <img src={concept9a} />
+                <img src={concept9a} alt="concept9a" />
               </Zoom>
             </div>
           </div>

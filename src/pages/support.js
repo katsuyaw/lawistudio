@@ -5,6 +5,7 @@ const support = (props) => {
   return (
     <>
       <Card
+        key="support"
         onClick={props.onClick}
         title=""
         text={

@@ -15,7 +15,6 @@ const ProductDisplay = () => (
 
       <div>
         <h3 className="mt-3 text-center">THE LAW OF INTUITION</h3>
-        <h5 className="mt-2 text-center text-xs"></h5>
       </div>
     </div>
     <div

@@ -1,13 +1,7 @@
 import React from "react";
-import Nav from "./Nav";
 import { Link } from "react-router-dom";
 
 const ShopCard = (props) => {
-  const menu = props.menu;
-  const title = props.title;
-  const button = props.button;
-  const bottomNav = props.bottomNav;
-
   return (
     <div
       className="relative box-content h-80 w-80 mx-1 mt-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"

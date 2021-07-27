@@ -5,6 +5,7 @@ const credit = () => {
   return (
     <div>
       <Card
+        key="credit"
         text={
           <div className="text-gray-500 font-thin flex flex-col justify-center items-center h-36 gap-10">
             <a

@@ -5,16 +5,18 @@ const awareness = (props) => {
   return (
     <>
       <Card
+        key="awareness"
         onClick={props.onClick}
-        text={[
-          <p>
-            This is the part where we defy self-limiting societal norms and
-            advocate for environmental justice and social equality.
-          </p>,
-          ,
-          <br />,
-          <p>Here is our message of peace.</p>,
-        ]}
+        text={
+          <div>
+            <p>
+              This is the part where we defy self-limiting societal norms and
+              advocate for environmental justice and social equality.
+            </p>
+            <br />
+            <p>Here is our message of peace.</p>
+          </div>
+        }
         button={
           <a
             target="_blank"

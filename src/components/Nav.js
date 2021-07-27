@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Nav = (props) => {
-  const showNav = props.showNav;
   return (
     <>
       <NavLink to="/love" activeStyle={{ color: "white" }}>
@@ -22,10 +21,7 @@ const Nav = (props) => {
         INTUITION
       </NavLink>
 
-      <button
-        className="text-base leading-3 sm:leading-4"
-        onClick={props.onClick}
-      >
+      <button className="  sm:leading-1" onClick={props.onClick}>
         +
       </button>
     </>

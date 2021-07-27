@@ -5,6 +5,7 @@ const terms = () => {
   return (
     <>
       <Card
+        key="terms"
         title=""
         text={[
           <div className="overflow-auto h-52 w-34">
@@ -66,6 +67,7 @@ const terms = () => {
                   use of the Service. This Terms and Conditions agreement has
                   been created with the help of the{" "}
                   <a
+                    rel="noopener noreferrer"
                     href="https://www.termsfeed.com/terms-conditions-generator/"
                     target="_blank"
                   >
@@ -87,7 +89,7 @@ const terms = () => {
                   <strong>Website</strong> refers to LAWI, accessible from{" "}
                   <a
                     href="https://lawistudios.com"
-                    rel="external nofollow noopener"
+                    rel="external nofollow noopener noreferrer"
                     target="_blank"
                   >
                     https://lawistudios.com

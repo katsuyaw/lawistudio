@@ -6,6 +6,7 @@ const comingsoon = () => {
   return (
     <>
       <Card
+        key="comingsoon"
         title=""
         text={[
           <div>

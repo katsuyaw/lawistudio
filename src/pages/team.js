@@ -6,6 +6,7 @@ const team = (props) => {
   return (
     <>
       <Card
+        key="team"
         onClick={props.onClick}
         title=""
         text={

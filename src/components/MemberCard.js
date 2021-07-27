@@ -1,13 +1,10 @@
 import React from "react";
-import Nav from "./Nav";
-import MoreNav from "./MoreNav";
 import { Link } from "react-router-dom";
 
 const MemberCard = (props) => {
   const menu = props.menu;
   const title = props.title;
   const button = props.button;
-  const switchNav = props.nav;
 
   return (
     <div

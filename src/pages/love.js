@@ -2,15 +2,12 @@ import React from "react";
 import Card from "../components/Card";
 
 const love = (props) => {
-  const test = () => {
-    console.log("test");
-  };
-  console.log(props);
   return (
     <>
       <Card
+        key="love"
         onClick={props.onClick}
-        text={[
+        text={
           <div>
             <p>
               LAWI is a community of rebels living life to the rhythm of
@@ -23,14 +20,13 @@ const love = (props) => {
             </p>
             <br />
             <p>We hope to inspire the next wave of rebel dreamers.</p>
-          </div>,
-        ]}
+          </div>
+        }
         button={
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://instagram.com/lawistudios"
-            key="instalink"
           >
             Explore
           </a>

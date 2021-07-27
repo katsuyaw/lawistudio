@@ -1,14 +1,14 @@
 import React from "react";
 import Card from "../components/Card";
-import { Link } from "react-router-dom";
 
 const wisdom = (props) => {
   return (
     <>
       <Card
+        key="wisdom"
         onClick={props.onClick}
         title=""
-        text={[
+        text={
           <div>
             <p>
               Here is our street recipe for self-discovery, self-mastery, and
@@ -22,8 +22,8 @@ const wisdom = (props) => {
               Ingredients include scientific fact, universal truths, you, and
               the ocean.
             </p>
-          </div>,
-        ]}
+          </div>
+        }
         // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
         button={<div>Coming Soon</div>}
         nav={props.nav}

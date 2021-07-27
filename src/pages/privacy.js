@@ -5,6 +5,7 @@ const privacy = () => {
   return (
     <>
       <Card
+        key="woprivacyrks"
         title=""
         text={[
           <div className="overflow-auto h-52 w-34">
@@ -24,6 +25,7 @@ const privacy = () => {
               <a
                 href="https://www.termsfeed.com/privacy-policy-generator/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Privacy Policy Generator
               </a>
@@ -208,7 +210,11 @@ const privacy = () => {
               mobile device when You go offline, while Session Cookies are
               deleted as soon as You close Your web browser. You can learn more
               about cookies here:{" "}
-              <a href="https://www.termsfeed.com/blog/cookies/" target="_blank">
+              <a
+                href="https://www.termsfeed.com/blog/cookies/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 All About Cookies by TermsFeed
               </a>
               .
