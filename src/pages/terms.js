@@ -1,12 +1,11 @@
 import React from "react";
-import Card from "../components/Card";
+import Card from "../components/MemberCard";
 
 const terms = () => {
   return (
     <>
       <Card
         key="terms"
-        title=""
         text={[
           <div className="overflow-auto h-52 w-34">
             <h1>Terms and Conditions</h1>
@@ -312,7 +311,6 @@ const terms = () => {
             </ul>
           </div>,
         ]}
-        nav=""
       />
     </>
   );
