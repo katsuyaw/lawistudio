@@ -21,9 +21,14 @@ const Nav = (props) => {
         INTUITION
       </NavLink>
 
-      <button className="  sm:leading-1" onClick={props.onClick}>
-        +
-      </button>
+      <div className="w-2 h-auto">
+        <button
+          className="text-base leading-3 sm:leading-6"
+          onClick={props.onClick}
+        >
+          +
+        </button>
+      </div>
     </>
   );
 };
