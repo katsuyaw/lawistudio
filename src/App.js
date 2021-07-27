@@ -25,7 +25,7 @@ import {
   Works,
   Gallery,
   ComingSoon,
-  Katsuya,
+  Credit,
 } from "./pages/import";
 
 function App() {
@@ -47,9 +47,6 @@ function App() {
     >
       <Router>
         <Switch>
-          <Route exact path="/">
-            <Home nav={nav} onClick={() => handleDefaultNav()} />
-          </Route>
           <Route path="/love">
             <Love nav={nav} onClick={() => handleNav()} />
           </Route>
@@ -83,12 +80,15 @@ function App() {
           <Route path="/comingsoon">
             <Contact nav={nav} onClick={() => handleNav()} />
           </Route>
-          <Route path="/katsuya">
-            <Katsuya />
+          <Route path="/credit">
+            <Credit />
           </Route>
-
+          <Route path="/credit" component={Credit} />
           <Route path="/terms" component={Terms} />
           <Route path="/privacy" component={Privacy} />
+          <Route exact path="/">
+            <Home nav={nav} onClick={() => handleDefaultNav()} />
+          </Route>
           <Redirect to="/" />
         </Switch>
         <Footer />

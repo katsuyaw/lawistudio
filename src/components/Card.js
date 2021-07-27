@@ -13,12 +13,14 @@ const Card = (props) => {
     <div
       className="relative box-content h-80 w-80 mx-1 mt-48 border border-gray-50  bg-black text-white sm:h-96 sm:w-96"
       style={{ borderColor: "#2F2F2F" }}
+      key="main"
     >
       <div className="grid justify-center mx-10">
         <Link to="/">
           <div
             className="text-3xl pt-6 text-center font-lawi sm:text-4xl"
             onClick={props.onClick}
+            key="title"
           >
             LAWI
           </div>

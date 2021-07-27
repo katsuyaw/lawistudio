@@ -30,6 +30,7 @@ const love = (props) => {
             target="_blank"
             rel="noopener noreferrer"
             href="https://instagram.com/lawistudios"
+            key="instalink"
           >
             Explore
           </a>

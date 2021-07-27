@@ -1,10 +1,7 @@
 import React from "react";
-import Card from "../components/Card";
-import { Link } from "react-router-dom";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 import LargeCard from "../components/LargeCard";
-import MoreNav from "../components/MoreNav";
 
 import persona1 from "../img/gallery/persona1.jpeg";
 import persona2 from "../img/gallery/persona2.jpeg";
@@ -44,7 +41,7 @@ const gallery = (props) => {
                 </Zoom>
               </div>
             </div>
-            <p className="my-5 font-thin">Concept</p>
+            <p className="my-5 font-thin">Concepts</p>
             <div className=" flex flex-col sm:grid md:grid-cols-2 gap-10">
               <Zoom>
                 <img src={concept2a} />

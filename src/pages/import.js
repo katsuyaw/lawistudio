@@ -2,7 +2,7 @@ export { default as Awareness } from "./awareness";
 export { default as ComingSoon } from "./comingsoon";
 export { default as Gallery } from "./gallery";
 export { default as Intuition } from "./intuition";
-export { default as Katsuya } from "./katsuya";
+export { default as Credit } from "./credit";
 export { default as Love } from "./love";
 export { default as Privacy } from "./privacy";
 export { default as Terms } from "./terms";
