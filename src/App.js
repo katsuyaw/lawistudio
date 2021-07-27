@@ -83,9 +83,12 @@ function App() {
           <Route path="/credit">
             <Credit />
           </Route>
-          <Route path="/credit" component={Credit} />
-          <Route path="/terms" component={Terms} />
-          <Route path="/privacy" component={Privacy} />
+          <Route path="/terms">
+            <Terms />
+          </Route>
+          <Route path="/Privacy">
+            <Privacy />
+          </Route>
           <Route exact path="/">
             <Home nav={nav} onClick={() => handleDefaultNav()} />
           </Route>

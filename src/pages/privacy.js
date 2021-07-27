@@ -5,8 +5,7 @@ const privacy = () => {
   return (
     <>
       <Card
-        key="woprivacyrks"
-        title=""
+        key="privacy"
         text={[
           <div className="overflow-auto h-52 w-34">
             Privacy Policy
@@ -519,7 +518,6 @@ const privacy = () => {
             </ul>
           </div>,
         ]}
-        nav=""
       />
     </>
   );

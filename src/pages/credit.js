@@ -3,7 +3,7 @@ import Card from "../components/MemberCard";
 
 const credit = () => {
   return (
-    <div>
+    <>
       <Card
         key="credit"
         text={
@@ -27,7 +27,7 @@ const credit = () => {
           </div>
         }
       />
-    </div>
+    </>
   );
 };
 
