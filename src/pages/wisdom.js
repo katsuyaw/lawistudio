@@ -10,13 +10,12 @@ const wisdom = (props) => {
         title=""
         text={
           <div>
-            <p>Here is your invitation to train with us.</p>
             <p>
-              We bring basketball to the beach to learn from the greatest
-              teacher on Earth, the ocean. Our holistic development process
-              delivers an invincible mind-body connection and a 40% clip from 3.
+              Here is your invitation to train with us. We bring basketball to
+              the beach to learn from the greatest teacher on Earth, the ocean.
+              Our holistic development process delivers an invincible mind-body
+              connection and a 40% clip from 3.
             </p>
-            <br />
             <p>This is basketball alchemy.</p>
           </div>
         }
