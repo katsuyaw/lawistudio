@@ -10,13 +10,15 @@ const intuition = (props) => {
         title=""
         text={
           <div>
-            <p>Welcome to our studio.</p>
-            <br />
+            <p>Welcome to our shop.</p>
             <p>
-              Designed with TLC in Los Angeles and sustainably produced for
-              Mother Earth.
+              All products are cut from premium recycled fabrics or imported
+              Italian fabrics.
             </p>
-
+            <p>
+              All products are locally and sustainably manufactured with TLC in
+              Los Angeles.
+            </p>
             <p>
               A portion of all proceeds goes towards inspiring hoop dreams and
               protecting our ocean.

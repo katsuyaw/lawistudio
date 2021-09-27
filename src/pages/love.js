@@ -10,27 +10,16 @@ const love = (props) => {
         text={
           <div>
             <p>
-              LAWI is a community of rebels living life to the rhythm of
+              LAWI is a community of hoopers surfing life to the rhythm of
               purpose.
             </p>
             <br />
-            <p>
-              We write about things that matter to us and design looks to match
-              its feel.
-            </p>
+            <p></p>
             <br />
-            <p>We hope to inspire the next wave of rebel dreamers.</p>
+            <p>We are the rebel heart.</p>
           </div>
         }
-        button={
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://instagram.com/lawistudios"
-          >
-            Explore
-          </a>
-        }
+        button={<div>Coming Soon</div>}
         nav={props.nav}
       />
     </>
