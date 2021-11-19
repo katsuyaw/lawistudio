@@ -12,10 +12,10 @@ const intuition = (props) => {
           <div>
             <p>Welcome to our shop.</p>
             <p>
-              All products are cut from premium recycled fabrics or imported
-              Italian fabrics. All products are locally and sustainably
-              manufactured with TLC in Los Angeles. A portion of all proceeds
-              goes towards inspiring hoop dreams and protecting our ocean.
+              We source premium recycled and imported Italian fabrics. All
+              products are locally and sustainably manufactured with TLC. A
+              portion of all proceeds goes towards protecting our oceans and
+              inspiring hoop dreams.
             </p>
           </div>
         }

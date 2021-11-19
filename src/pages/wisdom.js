@@ -11,16 +11,15 @@ const wisdom = (props) => {
         text={
           <div>
             <p>
-              Here is your invitation to train with us. We bring basketball to
-              the beach to learn from the greatest teacher on Earth, the ocean.
-              Our holistic development process delivers an invincible mind-body
-              connection and a 40% clip from 3.
+              Individually tailored intuition counseling. Calling all athletes,
+              artists, and activists to use the law of intuition for an
+              authentic self & style.
             </p>
-            <p>This is basketball alchemy.</p>
+            <p></p>
           </div>
         }
         // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
-        button={<div>Coming Soon</div>}
+        button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
         nav={props.nav}
       />
     </>

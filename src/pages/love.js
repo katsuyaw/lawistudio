@@ -9,17 +9,14 @@ const love = (props) => {
         onClick={props.onClick}
         text={
           <div>
-            <p>
-              LAWI is a community of hoopers surfing life to the rhythm of
-              purpose.
-            </p>
+            <p>LAWI rebels surfing to the rhythm of purpose.</p>
             <br />
             <p></p>
             <br />
-            <p>We are the rebel heart.</p>
+            <p>Book coming soon.</p>
           </div>
         }
-        button={<div>Coming Soon</div>}
+        button={<div>A Rebel’s Cause</div>}
         nav={props.nav}
       />
     </>
