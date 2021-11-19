@@ -10,12 +10,11 @@ const wisdom = (props) => {
         title=""
         text={
           <div>
+            <p>Individually tailored intuition counseling.</p>
             <p>
-              Individually tailored intuition counseling. Calling all athletes,
-              artists, and activists to use the law of intuition for an
-              authentic self & style.
+              Calling all athletes, artists, and activists to use the law of
+              intuition for an authentic self & style.
             </p>
-            <p></p>
           </div>
         }
         // button={<a href="mailto:info@lawistudios.com">Surf with us</a>}
