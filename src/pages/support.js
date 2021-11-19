@@ -24,7 +24,7 @@ const support = (props) => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://hoopbus.com/pages/donate"
+                href="https://hoopbus.com/"
                 className="underline"
               >
                 Build Basketball Courts with the Hoopbus
