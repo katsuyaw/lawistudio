@@ -11,6 +11,7 @@ const wisdom = (props) => {
         text={
           <div>
             <p>Individually tailored intuition counseling.</p>
+            <br />
             <p>
               Calling all athletes, artists, and activists to use the law of
               intuition for an authentic self & style.
